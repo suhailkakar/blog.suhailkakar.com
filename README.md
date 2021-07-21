@@ -5,6 +5,6 @@
 </p>
 
 <p align="center">
-    <img width="200" height="auto" src="https://i.ibb.co/XZhpB8m/Untitled-design-1.png" alt="Suhail Kakar" />
+    <img width="150" height="auto" src="https://i.ibb.co/JHpDQDD/Untitled-design-3.png" alt="Suhail Kakar" />
 <h1 align="center">Suhail Kakar's Blog</h1>
 <img src="https://i.ibb.co/chX4wtm/screely-1626886974256.png" />
