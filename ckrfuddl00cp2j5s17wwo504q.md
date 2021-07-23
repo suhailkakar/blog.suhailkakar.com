@@ -1,4 +1,4 @@
-## Learn this 21 JavaScript Tricks To Code Like A Pro!
+## 21 Useful JavaScript Tips That'll Help You Save Time
 
 JavaScript is a programming language used primarily by Web browsers to create a dynamic and interactive experience for the user. Most of the functions and applications that make the Internet indispensable to modern life are coded in some form of JavaScript.
 While JavaScript is not the only client-side scripting language on the Internet, it was one of the first and it is still the most widely used. Many developers believe that JavaScript is inefficient and finicky, so they have made many improvements to the language over the years.
