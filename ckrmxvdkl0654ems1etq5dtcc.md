@@ -23,6 +23,7 @@ Every developer's job entails some kind of product design. It's not just about h
 - [CSS Methodologies](#css-methodologies)
 - [CSS Animations](#css-animations)
 - [Javascript Animations](#javascript-animation-libraries)
+- [Javascript Charts](#javascript-chart-libraries)
 - [UI Components & Kits](#ui-components--kits)
 - [React UI Libraries](#react-ui)
 - [Vue UI Libraries](#vue-ui)
@@ -38,6 +39,7 @@ Every developer's job entails some kind of product design. It's not just about h
 - [Others](#others)
 
 
+## UI Graphics
 
 >Websites and resources with modern UI components in different formats such as PSD, Sketch, Figma, etc. They are great for ideas for web components/UI
 
@@ -83,3 +85,8 @@ Every developer's job entails some kind of product design. It's not just about h
 | [Doodad Pattern Generator](https://doodad.dev/pattern-generator/) | Create unique, seamless, royalty-free patterns.|
 | [Pattern Monster](https://pattern.monster/) | A simple online pattern generator to create repeatable SVG patterns|
 | [Exemplar](https://themeselection.com/products/exemplar-free-avatar-library-for-figma-and-sketch/) | Free Avatar Library for Figma and Sketch|
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
