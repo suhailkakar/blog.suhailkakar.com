@@ -299,3 +299,223 @@ Every developer's job entails some kind of product design. It's not just about h
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+
+
+## Icon Fonts
+
+>Resources for Icon Fonts
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Font Awesome](https://fontawesome.com/)| The web's most popular icon set and toolkit  |
+| [Line Awesome](https://icons8.com/line-awesome)| Swap in replacement of Font Awesome with modern line icons |
+| [Material Icons](https://material.io/resources/icons/)| Material design icon library |
+| [IonIcons](http://ionicons.com/)| Beautifully crafted open source icons from Ionic team |
+| [Zurb Foundation Icons](https://zurb.com/playground/foundation-icon-fonts-3)| Customizable Foundation icons |
+| [Fontisto Icons](https://fontisto.com/)| Fontisto the iconic font and css toolkit · 616+ free icons  |
+| [Boxicons](https://boxicons.com/)| Boxicons is a free collection of carefully crafted open source icons  |
+| [Icofont](https://icofont.com/)| 2100+ free icons to spice up your creative designs  |
+| [Material Palette](https://www.materialpalette.com/icons)| Free to pick palettes, icons and colors for Material Design]|
+| [Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/index.html) | Material design icon font |
+| [Vscode Codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html) | The icon font from Visual Studio Code |
+| [Devicon](https://konpa.github.io/devicon/) | Devicon is a set of icons representing programming languages, designing & development tools |
+| [PaymentFont](https://github.com/AlexanderPoellmann/PaymentFont) | A sleek web font for payment operators and methods. Featuring 116 icons |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | Weather Icons is the only icon font with 222 weather themed icons |
+| [Stroke 7](https://themes-pixeden.com/font-demos/7-stroke/index.html) | 202 thin stroke icons inspired by iOS 7 |
+| [Jam Icons](https://jam-icons.com/) | 890+ handcrafted icons to make your web app awesome |
+| [Fontello](http://fontello.com/)| 200+ web icons where you can customize the names or codes of icons. |
+| [Linea](https://linea.io/)| Linea: Featuring 750+ Free Icons |
+| [Unicons](https://iconscout.com/unicons)| A set of 1100+ Free line style icons available as web font, SVG icons, and as components for JS frameworks like React, Vue and React Native. |
+| [Mobirise Icons](https://mobiriseicons.com/)| A free, open source set of 150 elegant, pixel-perfect linear icons, available as web icon font and SVG icons. |
+| [Hero Icons](https://heroicons.dev/)| Free Open Source Svg Icon Library |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Stock Photos
+
+>Websites that offer free stock photos of all kinds for your websites and apps
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Pexels](https://www.pexels.com/)| Free stock photos shared by talented creators |
+| [Unsplash](https://unsplash.com/)| The internet’s source of freely usable images
+| [Pixabay](https://pixabay.com/)| Over 1.7 million+ high-quality stock images and videos |
+| [Magdeleine](https://magdeleine.co/)| Gallery & free high-resolution photo everyday |
+| [Picspree](https://picspree.com)| Royalty free images, stock photos, illustrations, and vectors |
+| [Burst](https://burst.shopify.com/)| Free stock photos collections |
+| [Gratisography](https://gratisography.com/)| Free collection of free high-resolution pictures |
+| [Life of Pix](https://www.lifeofpix.com/)| Free high-resolution photography |
+| [Stock Snap](https://stocksnap.io/)| Hundreds of high quality photos added weekly |
+| [Morguefile](https://morguefile.com/)| Over 350,000 free stock photos for commercial use |
+| [Kaboom Pics](https://kaboompics.com/)| Stock photography and color palettes. Good for product images |
+| [New Old Stock](https://nos.twnsnd.co/)| Stock vintage photos |
+| [Pic Jumbo](https://picjumbo.com/)| Good collections of different types of photos |
+| [Public Domain Pictures](https://www.publicdomainpictures.net/en/)| Public domain images of all types |
+| [Find A Photo](https://www.chamberofcommerce.org/findaphoto/)| Searches multiple stock photo websites |
+| [Stockvault](http://www.stockvault.net/)| Categorized stock photos |
+| [Placeholder](https://placeholder.com/)| A free image placeholder service for the web. You can specify image size and format |
+| [Realistic Shots](https://realisticshots.com/)| Free high-resolution stock photos |
+| [Negative Space](https://negativespace.co/)| High-Resolution Free Stock Photos |
+| [SkitterPhoto](https://skitterphoto.com/)| Free high-resolution photography |
+| [PicoGraphy](https://picography.co/)| Gorgeous, High-Resolution, Free Photos |
+| [Wunder Stock](https://wunderstock.com/)| Stunningly amazing free photos |
+| [PxHere](https://pxhere.com/)| Free Images & Free stock photos - PxHere |
+| [Piqsels](https://piqsels.com/)| Royalty Free Stock Photos |
+| [FoodiesFeed](https://www.foodiesfeed.com/)| Food photo stock |
+| [Nappy](https://www.nappy.co/)| A website offering Beautiful, high-res photos of black and brown people.|
+| [Generated Photos](https://generated.photos/)| Unique AI Generated model photos|
+| [Reshot](https://www.reshot.com/)| Uniquely free photos. Handpicked, non-stocky images.
+| [Free Images](https://www.freeimages.com/)| Find and download free stock photos - all free for personal and commercial use|
+| [Lorem Picsum](https://picsum.photos/)| An easy to use API to get beautiful placeholder images. Size and other parameters can be specified. |
+| [scienceimage](https://www.scienceimage.csiro.au) | An image library specializing in science and nature images |
+| [Integration & Application Network Image Library](https://ian.umces.edu/imagelibrary) | Free images to provide scientists, resource managers, government agencies, community groups and graphics professionals with a resource for enhancing science communication. |
+| [Saxifraga](http://www.freenatureimages.eu) | Free nature images |
+| [Creative Commons](https://search.creativecommons.org) | Search for free images to reuse.
+| [AllTheFreeStock](https://allthefreestock.com/) | a curated list of free stock images, audio and videos.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Stock Videos
+
+>Websites that offer free stock videos of all kinds for your websites and apps
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Pexels](https://www.pexels.com/videos)| Largest library of free to use videos, donated by the community |
+| [Pixabay](https://www.pixabay.com/videos)| Large library of free to use videos, donated by the community similar to Pexels |
+| [Coverr.co](https://coverr.co/)| Beautiful free stock video footage |
+| [Videezy](https://www.videezy.com/)| Free HD stock footage & 4K videos |
+| [Mix Kit](https://mixkit.co/)| Stock video clips & music |
+| [Life Of Vids](https://www.lifeofvids.com/)| Free video clips and loops |
+| [Videvo](https://www.videvo.net/stock-video-footage/)| Free and premium stock videos |
+| [Loopvidz](http://stock.loopvidz.com/)| Free To Use Cinema graphs Created With VIMAGE App |
+| [SplitShire](https://www.splitshire.com/)| Beautiful & exclusive free stock videos & photos |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+
+## Stock Music & Sound Effects
+
+>Websites that offer free stock music and/or sound effects
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Free Stock Music](https://www.free-stock-music.com/)| Royalty free stock music for YouTube videos, podcasts, etc |
+| [Bensound](https://www.bensound.com/)| Download Royalty Free Music for free and use it in your project |
+| [Mixkit](https://mixkit.co/free-stock-music/)| Free music for your projects |
+| [Freesound](https://freesound.org/)| Free stock music and sounds |
+| [Free Music Archive](https://freemusicarchive.org/)|  Collaborative database of creative-commons licensed sound for musicians and sound lovers  |
+| [Musopen](https://musopen.org/music/)| An online copyright free classical music library |
+| [Unminus](https://www.unminus.com/)| Free Premium Music for Your Projects 🎁 Royalty Free. Cleared for YouTube. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Vectors & Clip Art
+
+>Free vectors, clipart, illustrations, patterns and more
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Vecteezy](https://www.vecteezy.com/)| Find and download free vector art |
+| [Freepik](https://www.freepik.com)| Free vectors, stock photos, PSD and icons |
+| [Free Vectors](https://www.freevectors.net/)| Community of vector lovers who share free vector graphics |
+| [PNGTree](https://pngtree.com/free-vectors)| png, backgrounds, templates, text effects |
+| [Vector4Free](https://www.vector4free.com/)| Free vector graphics |
+| [Retro Vectors](http://retrovectors.com/)| Vintage vectors and graphics |
+| [Freeble](http://freebbble.com/)| Vectors, patterns, mockups and more |
+| [Lukaszadam](https://lukaszadam.com/)| Free Vector artworks |
+| [Illlustrations](https://illlustrations.co/)| Beautiful 100 Illustrations - png, svg |
+| [Clipart](https://www.clipart.email/)| Choose great clipart, png, coloring pages, drawings and more for your projects from the free collection! |
+| [Growwwkit illustrations](https://growwwkit.com/illustrations/phonies)| A set of 8 simple, black & white, stylish illustrations |
+| [trianglify.io](https://trianglify.io/) | Generate low-poly backgrounds, textures, and vectors |
+| [blob](https://blobs.app/) | Generate Blob shapes for Web and Flutter apps |
+| [HiClipart](https://www.hiclipart.com/)| A community for designers to share & download transparent background PNG cliparts |
+| [Stories by Freepik](https://stories.freepik.com/) | A collection of free and customizable illustrations for projects |
+| [Black Illustrations](https://www.blackillustrations.com/) | Beautiful illustrations of black people (free and premium) |
+| [Delesign](https://delesign.com/free-designs/graphics) | A collection of free illustrations and more |
+| [Custom Shape Dividers](https://www.shapedivider.app/) | Free tool to make it easier for designers and developers to export a beautiful SVG shape divider |
+| [Servier Medical Art](https://smart.servier.com) | 3000 free medical images to illustrate your publications and PowerPoint presentations |
+| [Clker](http://www.clker.com) | Free clip art you can use for anything you like |
+| [SVG wave](https://svgwave.in/) | A free, & customizable gradient 🌈 SVG wave generator for UI designs . |
+| [Heritage Library](https://www.heritagetype.com/collections/free-vintage-illustrations) | Vintage Illustrations (vector and png) |
+| [ROBOHASH](https://robohash.org/) | Generate unique images from any text |
+| [Tabbied](https://tabbied.com/) | Create and customize minimally generated patterns/artwork to use for background images, print and other projects. |
+| [Haikei](https://app.haikei.app/) | An awesome multishape web app. |
+
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Product & Image Mockups
+
+>Create mockups of devices and other products
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Smart Mockups](https://smartmockups.com/)| Create stunning product mockups (free & premium) |
+| [Media Modifier](https://mediamodifier.com/)| beautiful design mockups service for your products (free & premium) |
+| [Shot Snap](https://shotsnapp.com/)| Create beautiful device mockup images for your app or website design |
+| [Screely](https://www.screely.com/)| Instantly turn your screenshot into a mockup |
+| [Screenshot.rocks](https://screenshot.rocks/)| Create beautiful browser & mobile mockups in seconds |
+| [Screen Peak](https://screenpeek.io/)| Create a mockup from a URL |
+| [Mockup World](https://www.mockupworld.co/)| The biggest source of free photo-realistic Mockups online |
+| [Collab Shot](https://www.collabshot.com/)| Real-time screen grabs and image sharing |
+| [Facebook Devices](https://facebook.design/devices)| Images and Sketch files of popular devices  |
+| [Threed.io](https://threed.io)| Generate 3D mockups right in your browser. |
+| [Mockuphone](https://mockuphone.com/)| 100% free mockups for all devices including IOS, Android, Windows Phone, Laptop & Desktop and TV |
+| [Device Shots](https://deviceshots.com/)| Create high-resolution device mockups for social media, for free |
+| [Clean Mock](https://cleanmock.com/)| Create stunning mockups using latest device frames like iPhone X & custom backgrounds that make your mobile or website design standout, right from your browser quickly & for free. |
+| [Mock.Video](https://www.mock.video/)| Instantly create mockups by adding a device frame to your videos. |
+| [MockupBro](https://mockupbro.com/)| Create product mockups with online mockup generator! Just choose a mockup, upload your design and download your image without a watermark. |
+| [Animockup](https://animockup.com/)| Create animated mockups in the browser 🔥. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## HTML & CSS Templates
+
+>Websites that offer free beautiful website templates and themes of all types
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [HTML5Up](https://html5up.net/)| Very modern, unique responsive HTML5/CSS3 themes |
+| [Templatemo](https://templatemo.com/)| Minimal, resume, gallery themes and more |
+| [Templated.co](https://templated.co/)| Tons of minimalistic HTML5/CSS3 themes |
+| [FreeHTML5](https://freehtml5.co/)| Free & premium HTML5 and Bootstrap themes |
+| [StyleShout](https://www.styleshout.com/free-templates/)| Brilliantly crafted free website templates |
+| [Start Bootstrap](https://startbootstrap.com/)| Bootstrap starter themes |
+| [Zerotheme](https://www.zerotheme.com/)| HTML5, Bootstrap, Prestashop templates |
+| [HTML5xCSS3](https://www.html5xcss3.com/)| Collection of wonderful templates in different categories |
+| [Colorlib](https://colorlib.com/wp/templates/)| Almost any category of theme you can think of |
+| [Free CSS](https://www.free-css.com/free-css-templates)| Huge collection of free templates |
+| [Hubspot](https://www.hubspot.com/resources)| Templates, infographics, banners and much more|
+| [Mobirise](https://mobirise.com/html-templates/)| Great looking HTML5/CSS3 templates|
+| [Bootswatch](https://bootswatch.com/)| Free themes for Bootstrap|
+| [Onepagelove](https://onepagelove.com/)| One-page websites, templates and resources|
+| [Themes For App](https://themesfor.app/)| Free Bootstrap themes and landing pages|
+| [BootstrapTaste](https://bootstraptaste.com/)| Premium & Free Bootstrap Templates|
+| [BootstrapMade](https://bootstrapmade.com/)| Elegant, clean and beautiful free templates using Bootstrap. |
+| [W3Layouts](https://w3layouts.com/)| W3Layouts: 3784+ Free Website Templates for 2020 |
+| [Tooplate](https://www.tooplate.com/)| Tooplate: Free HTML Templates for everyone! |
+| [Cruip](https://cruip.com/free-templates/)| Fully coded HTML templates to help you easily build your startup landing page without hassles. |
+| [UIdeck](https://uideck.com/) | Free Landing Page Templates and Bootstrap Themes |
+| [Splawr](https://splawr.com/) | Free web templates to kickstart your idea! |
+| [W3css_templates](https://www.w3schools.com/w3css/w3css_templates.asp) | Some responsive W3.CSS website templates for you to use. |
+| [All-Free-Download](https://all-free-download.com/free-website-templates/free-html-css-templates.html) | Download free-website-templates |
+| [mashup-template](http://www.mashup-template.com/templates.html)| HTML5/CSS3 Free Templates |
+
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
