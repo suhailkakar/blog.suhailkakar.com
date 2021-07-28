@@ -519,3 +519,218 @@ Every developer's job entails some kind of product design. It's not just about h
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+
+
+## CSS Frameworks
+
+>CSS/UI frameworks to help build great looking websites and applications
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Tailwind CSS](https://tailwindcss.com/)| Low level, utility-first framework |
+| [Bootstrap](https://getbootstrap.com/)| Popular UI framework with tons of components that use both CSS and JS |
+| [Materialize](https://materializecss.com/)| A modern responsive front-end framework based on Material Design |
+| [Material Design Lite](https://getmdl.io/)| Light framework based on Material Design. No JS dependency |
+| [Bulma](https://bulma.io/)| Modern CSS framework with no JS |
+| [Skeleton](http://getskeleton.com/)| Extremely light framework for basic UI elements |
+| [Semantic UI](https://semantic-ui.com/)| Empowers designers and developers by creating a shared vocabulary for UI  |
+| [Fomantic UI](https://fomantic-ui.com/)| A community fork of Semantic-UI |
+| [Foundation](https://get.foundation/)| Mobile first framework with clean markup |
+| [Pure CSS](https://purecss.io/)| A set of small, responsive CSS modules |
+| [UIKit](https://getuikit.com/)| Lightweight and modular front-end framework |
+| [Susy](https://www.oddbird.net/susy/)| Lightweight, grid-layout engine for Sass |
+| [Milligram.io](https://milligram.io/)| Minimalist CSS framework |
+| [Vanilla Framework](https://vanillaframework.io/)| Simple, extensible CSS framework written in Sass |
+| [Spectre CSS](https://picturepan2.github.io/spectre/)| Lightweight, modern CSS framework |
+| [Picnic CSS](https://picnicss.com/)| Lightweight and beautiful library |
+| [Wing](https://kbrsh.github.io/wing/)| A beautiful CSS framework designed for minimalists  |
+| [Chota](https://jenil.github.io/chota/)| A micro (~3kb) CSS framework  |
+| [Blueprint CSS](https://blueprintcss.dev/)| A lightweight layout library for building great responsive mobile first UIs that work everywhere  |
+| [W3.CSS](https://www.w3schools.com/w3css/) | A modern CSS framework with support for desktop, tablet, and mobile design by default. Designed to be independent of jQuery or any other JavaScript library  |
+| [98.css](https://jdan.github.io/98.css/)| A design system for building faithful recreations of old UIs  |
+| [NES CSS](https://nostalgic-css.github.io/NES.css/)| NES-style CSS Framework  |
+| [Shoelace.css](https://www.shoelace.style/)| Lightweight, forward-thinking CSS library built with future CSS syntax |
+| [MVP.css](https://andybrewer.github.io/mvp/) | A minimalist stylesheet for HTML elements. No class names, no frameworks, just semantic HTML and you're done |
+| [Blaze.css](http://blazecss.com/) | Open source modular CSS toolkit providing great structure for building websites quickly  |
+| [Turret CSS](https://turretcss.com/) | Turret CSS is a styles framework for development of responsive websites.  |
+| [Cutestrap](https://www.cutestrap.com/) | A strong, independent CSS Framework. |
+| [Shorthand](https://shorthandcss.com/) | Shorthand is a free and open source css framework, that allows you to make unique and modern design without writing any css |
+| [XP.css](https://botoxparty.github.io/XP.css/) | XP.css is an extension of 98.css. A CSS library for building interfaces that look like old UIs. |
+| [Framework7](https://framework7.io/) | Framework7 - is a free and open source framework to develop mobile, desktop or web apps with native look and feel. |
+| [Hint.css](https://kushagra.dev/lab/hint/) | A pure CSS tooltip library for your lovely websites. |
+| [imagehover.io](http://imagehover.io/) | Pure CSS Image Hover Effect Library |
+| [mini.css](https://minicss.org/) | A minimal, responsive, style-agnostic CSS framework |
+| [Tachyons](https://tachyons.io/) | Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible. |
+| [Material Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/) | Material Design with Bootstrap |
+| [Ivory](https://github.com/IVORY-UI/ivory) | A modern CSS framework for developing powerful web interfaces faster and easier |
+| [Halfmoon UI](https://www.gethalfmoon.com/)| A responsive and lightweight framework, designed for quickly building beautiful dashboards and product pages. |
+| [Metro 4](https://metroui.org.ua/index.html)| Create your site quickly and effectively with Metro 4. impressive components library built on html, css, javascript. |
+| [css-doodle](https://css-doodle.com/) | A web component for drawing patterns with CSS |
+| [latex.css](https://latex.now.sh/) | Make your website look like a LaTeX document |
+| [Paper CSS](https://github.com/cognitom/paper-css) | Front-end printing solution |
+| [Windi CSS](https://windicss.org/) | Next generation compiler for Tailwind CSS |
+| [Cirrus CSS](https://spiderpig86.github.io/Cirrus/) | A gorgeous CSS Framework for the web |
+| [Gutenberg](https://github.com/BafS/Gutenberg) | Modern framework to print the web correctly. |
+| [lit](https://github.com/ajusa/lit) | World's smallest responsive fire css framework (395 bytes). |
+| [Arwes](https://github.com/arwes/arwes) | Arwes is a web framework to build user interfaces based on futuristic science fiction designs, animations, and sound effects. |
+| [Bojler](https://bojler.slicejack.com/) | Bojler is an email framework for developing responsive and lightweight email templates that will render correctly across each of the most popular email clients. |
+| [Tacit](https://github.com/yegor256/tacit) | Primitive CSS Framework for dummies, without classes. |
+| [Terminal CSS](https://terminalcss.xyz/) | A modern and minimal CSS framework for terminal lovers. |
+| [Sakura](https://oxal.org/projects/sakura/) | A minimal classless css framework / theme. |
+| [PSone](https://github.com/micah5/PSone.css) | PS1 style CSS Framework, inspired by NES.css. |
+| [Marx](https://github.com/mblode/marx) | Marx is the classless CSS reset to be used in any projects (namely small ones). |
+| [Tufte](https://github.com/edwardtufte/tufte-css) | Style your webpage like Edward Tufte’s handouts. |
+| [Axentix](https://useaxentix.com/) | Axentix is an open source Framework based on CSS Grid using HTML, CSS and JS. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## CSS Methodologies
+
+>CSS methodologies to help write modular, reusable and scalable code
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [OOCSS](http://oocss.org/) | OOCSS concepts help us write components that are flexible, modular and interchangeable. |
+| [Atomic CSS](https://acss.io/) | Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function. |
+| [BEM](http://getbem.com/) | Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development. |
+| [SMACSS](http://smacss.com/) | SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## CSS Animations
+
+>CSS animations to build awesome animations for websites and applications
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Animate.css](https://animate.style/)| Just-add-water CSS animations |
+| [Bounce.js](http://bouncejs.com/)| Bounce.js is a tool and JS library that lets you create beautiful CSS3 powered animations  |
+| [Anime.js](https://animejs.com/)| Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API. It works with CSS properties, SVG, DOM attributes and JavaScript Objects  |
+| [Magic Animations](https://www.minimamente.com/project/magic/)| Animations has been one of the most impressive animation libraries available |
+| [Zdog](https://zzz.dog/)| Round, flat, designer-friendly pseudo-3D engine for canvas & SVG |
+| [CSShake](http://elrumordelaluz.github.io/csshake/)| CSShake delivers exactly what it says on the box — a CSS library designed specifically for shaking elements within your web page  |
+| [Hover.css](http://ianlunn.github.io/Hover/)| Hover.css is a CSS animation library designed for use with buttons and other UI elements in your website  |
+| [AniJS](http://anijs.github.io/)| AniJS is an animation library that allows you to add animations to elements in a simple ‘sentence-like’ structure  |
+| [Animista](http://animista.net/)| CSS Animations On Demand |
+| [Tachyons-animate](https://github.com/anater/tachyons-animate)| Tachyons itself is an atomic CSS library with a ton of utility classes for essentially designing anything by adding classes to what you need   |
+| [Sequence.js](https://www.sequencejs.com/)| Sequence.js is a JavaScript library that provides a responsive CSS framework for creating unique sliders, presentations, banners, and other step-based applications |
+| [Infinite](https://tilomitra.github.io/infinite/)| These animations, like rotations and pulses, that are specifically designed to run and repeat forever |
+| [OBNOXIOUS.CSS](http://tholman.com/obnoxious/)| Animations for the strong of heart, and weak of mind |
+| [MOTION UI](https://zurb.com/playground/motion-ui)| A Sass library for creating flexible CSS transitions and animations |
+| [Keyframes.app](https://keyframes.app/)| A graphical user interface for generating custom CSS keyframe animations |
+| [thoughtbot](https://thoughtbot.com/blog/transitions-and-transforms)| CSS Transitions and Transformations for Beginners |
+| [SVG Artista](https://svgartista.net/)| A useful tool to animate stroke and fill properties in SVG images with plain CSS code |
+| [AnimXYZ](https://animxyz.com/)| AnimXYZ helps you create, customize, and compose animations for your website. Built for Vue, React, SCSS, and CSS |
+| [Whirl](https://github.com/jh3y/whirl)| CSS loading animations with minimal effort! |
+| [Hamburgers](https://jonsuh.com/hamburgers/)| Hamburgers is a collection of tasty CSS-animated hamburger icons. Also included is the source as a Sass library. It’s modular and customizable, so cook up your own hamburger. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Javascript Animation Libraries
+
+>javascript animations libraries to build awesome animations for websites and applications
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Greensock](https://greensock.com/)| A JavaScript library for building high-performance animations that work in every major browser |
+| [Velocity.js](http://velocityjs.org/)| Velocity is a lightweight animation engine with the same API as jQuery's $.animate() |
+| [lax.js](https://github.com/alexfoxy/laxxx)| Simple & light weight vanilla javascript plugin to create smooth & beautiful animations when you scroll! |
+| [Rellax.js](https://github.com/dixonandmoe/rellax)| A buttery smooth, super lightweight, vanilla javascript parallax library |
+| [three.js](https://github.com/mrdoob/three.js/)| An easy to use, lightweight, 3D library with a default WebGL renderer. |
+| [wow.js](https://wowjs.uk/)| Reveal Animations When You Scroll. |
+| [chocolat.js](http://chocolat.insipi.de/)| Free lightbox plugin. |
+| [Animate On Scroll](https://michalsnik.github.io/aos/)| Animate on scroll library to reveal animations when You scroll. |
+| [Tilt.js](http://gijsroge.github.io/tilt.js/)| A tiny requestAnimationFrame powered 60+fps lightweight parallax hover tilt effect for jQuery. |
+| [Roughnotation](https://roughnotation.com/)| Rough Notation is a small JavaScript library to create and animate annotations on a web page |
+| [tsParticles](https://particles.matteobruni.it/)| A lightweight library for creating particles, an improved version of the abandoned and obsolete particles.js |
+| [Particles.js](https://vincentgarreau.com/particles.js/)| A lightweight JavaScript library for creating particles |
+| [mo.js](https://mojs.github.io/)| The motion graphics toolbelt for the web |
+| [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)| A small JS library to overlay images on top of the current page. |
+| [Slick](https://kenwheeler.github.io/slick/)|  Fully responsive carousel |
+| [barba.js](https://barba.js.org/)| Create fluid and smooth transitions between your website’s pages. |
+| [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)| A simple scroll library that provides detection of elements in viewport & smooth scrolling with parallax. |
+| [Owl carousel](https://owlcarousel2.github.io/OwlCarousel2/)| Free responsive jQuery carousel |
+| [Swiperjs](https://swiperjs.com/)| Free, Open Source, Modern Slider without jQuery. Available for Vanilla JS and all modern frameworks like React, Vue, Angular etc. |
+| [Splide](https://splidejs.com)| Free, pure JS library for carousels and sliders |
+| [Simple Parallax](https://simpleparallax.com/)| The easiest way to get a parallax effect with javascript |
+| [KUTE.js](https://thednp.github.io/kute.js/)| KUTE.js is a JavaScript animation engine for modern browsers. |
+| [Granim.js](https://sarcadass.github.io/granim.js/index.html)| Create fluid and interactive gradient animations with this small javascript library. |
+| [Popmotion](https://popmotion.io/)| Simple animation libraries for delightful user interfaces. |
+| [Vivus](https://maxwellito.github.io/vivus/)| Vivus is a lightweight JavaScript class (with no dependencies) that allows you to animate SVGs, giving them the appearence of being drawn. |
+| [Typed.js](https://mattboldt.com/demos/typed-js/)| A JavaScript Typing Animation Library. |
+| [Progress Bar.js](https://kimmobrunfeldt.github.io/progressbar.js/)| Responsive and slick progress bars with animated SVG paths. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Javascript Chart Libraries
+
+>Libraries that help developers visualize data into charts
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [ChartJS](https://www.chartjs.org/)| Simple yet flexible JavaScript charting for designers & developers |
+| [FrappeJS](https://frappe.io/charts)| Includes Green squares grid like in github, and other charts to use. |
+| [G2Plot](https://g2plot.antv.vision/en)| G2Plot is an interactive and responsive charting library based on the grammar of graphics. |
+| [Google Charts](https://developers.google.com/chart/)| Get the experience from google to create similar charts that google use. |
+| [Data Driven Documents (D3)](https://d3js.org/)| bind complicated and massive data to interactive graphs. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## UI Components & Kits
+
+>Not quite "frameworks", but tools for creating user interfaces with components or UI kits
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Bit](https://bit.dev/components)| Provides a huge library of reuseable UI Components for React, Angular, Vue, React Native. Also can be used for sharing UI Components among other team members |
+| [UILang](http://uilang.com/)| A minimal, UI-focused programming language for web designers |
+| [Medialoot CSS Components](https://medialoot.com/free-themes/css-components/)| Calendars, price grids and other UI components |
+| [Froala Design Blocks](https://froala.com/design-blocks)| Over 170 responsive design blocks ready to be used in your web or mobile apps |
+| [Mui Treasury](https://mui-treasury.com)| An open-source project that provides a collection of ready-to-use components based on Material-UI.  |
+| [Material Design For Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/)| Open source toolkit for building material design with Bootstrap |
+| [Photonkit](http://photonkit.com/)| Desktop UI library for Electron |
+| [Flat UI](https://designmodo.github.io/Flat-UI/)| Minimal free user interface kit|
+| [Shards](https://designrevision.com/downloads/shards/)| A free and modern UI toolkit for web makers based on Bootstrap  |
+| [Creative Tim](https://www.creative-tim.com/)| All types of UI libraries and kits including JS frameworks like React |
+| [Brumm Shadow Maker](https://brumm.af/shadows)| An online tool to make css shadows|
+| [AdminLTE](https://adminlte.io/)| Best open source admin dashboard & control panel theme|
+| [SpinKit](https://tobiasahlin.com/spinkit/)| Simple CSS Spinners|
+| [Epic Spinners](https://epic-spinners.epicmax.co/)| CSS spinners collection with Vue.js integration. |
+| [Loading.io](https://loading.io/)| Online service provider for creating simple animations, spinners, progress bar and more |
+| [Moving Letters](https://tobiasahlin.com/moving-letters/)| Animated Text with JavaScript and anime.js|
+| [CSS Layout](https://csslayout.io/)| A collection of popular web layouts and patterns in pure CSS |
+| [CSS Grid Generator](https://cssgrid-generator.netlify.app/)| An open-source project that allow users to quickly create dynamic layout based on CSS Grid. |
+| [Codyhouse](https://codyhouse.co/)| Kick-start your web projects with CodyHouse's front-end framework and library of accessible HTML, CSS, JavaScript components  |
+| [Tailwind Starter Kit](https://github.com/creativetimofficial/tailwind-starter-kit)| Tailwind Starter Kit a beautiful extension for TailwindCSS, Free and Open Source  |
+| [Tailwindtoolbox](https://www.tailwindtoolbox.com/)| Open source starter templates and components, a plugins directory and useful tools/utilities to kick start your Tailwind CSS project. |
+| [tailwindcomponents](https://tailwindcomponents.com/)| A free repository for community components using TailwindCSS |
+| [sweetalert](https://sweetalert.js.org/)| SweetAlert makes popup messages easy and pretty. |
+| [sweetalert2](https://sweetalert2.github.io/)| A beautiful, responsive, customizable, accessible replacement for javascript's popup boxes |
+| [tailblocks](https://mertjf.github.io/tailblocks/)| Open source ready-to-use Tailwind CSS components. |
+| [Soft Components](https://soft-components-docs.web.app/)| A set of framework-agnostic web components based on neumorphic design. |
+| [Fast](https://www.fast.design/)| An interface system that can be used with modern Web Frameworks such as React, Vue and Angular. |
+| [LottieFiles ](https://lottiefiles.com/)| Interactive animations in many formats like json,gif and mp4, libraries and plugins for Web & Mobile . |
+| [Tailwindow ](https://component.tailwindow.com/)| Components created using Tailwind CSS utilities class, so it can be customized to make themes easily. |
+| [Kutty](https://kutty.netlify.app/)| A set of accessible and reusable prebuilt Tailwind components that are commonly used in web applications. |
+| [Tailwind Templates](https://tailwindtemplates.io/)| A free collection of Tailwindcss Templates - tailwind components for rapid UI development. |
+| [Stitches](https://stitches.hyperyolo.com/)| An HTML template generator using functional css. |
+| [Meraki UI Components](https://merakiui.com/)| Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid. |
+| [Daemonites Material Design For Bootstrap](https://http://daemonite.github.io/material/)| Daemonite's Material UI is a cross-platform and fully responsive front-end interface based on Google Material Design developed using Bootstrap 4 |
+| [Stitches](https://stitches.dev/)| CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience. |
+| [Headless UI](https://headlessui.dev/)| Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. |
+| [Styled components](https://styled-components.com/)| Build beautifully UI Components, for your applications & websites. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
