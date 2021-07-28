@@ -734,3 +734,319 @@ Every developer's job entails some kind of product design. It's not just about h
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+
+
+## React UI
+
+>UI and component libraries for the React JavaScript framework
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Material UI](https://material-ui.com/)| React components for faster and easier web development, based on Material Design |
+| [Chakra UI](https://chakra-ui.com/)| Build accessible React apps & websites with speed. [Openchakra](https://openchakra.app/) |
+| [React Bootstrap](https://react-bootstrap.github.io/)| Bootstrap rebuilt for React. Include Bootstrap components right in your JavaScript |
+| [ui-playbook](https://uiplaybook.dev/)| The documented collection of UI components |
+| [ReactStrap](https://reactstrap.github.io/)| Another Bootstrap UI library for React |
+| [React Admin](https://marmelab.com/react-admin/)| A frontend Framework for building admin applications. Supports API's out of the box|
+| [BlueprintJS](https://blueprintjs.com/)| React-based UI toolkit for the web |
+| [React Semantic UI](https://react.semantic-ui.com/)| UI components based off of the Semantic UI framework |
+| [Shards React](https://designrevision.com/downloads/shards-react/)| React UI kit featuring a modern design system with dozens of custom components  |
+| [React Virtualized](https://bvaughn.github.io/react-virtualized)| UI set for data. Includes tables, lists, sorting, etc. |
+| [React Toolbox](http://react-toolbox.io/#/)| Material design UI library for React |
+| [Elastic UI](https://elastic.github.io/eui/#/)| Distributes UI React components and static assets for use in building web layouts |
+| [React Desktop](http://reactdesktop.js.org/)| Desktop styled components in React. Includes MacOS and Windows based components |
+| [Theme UI](https://theme-ui.com/home)| Build consistent, themeable React apps based on constraint-based design principles |
+| [Onsen React](https://onsen.io/react/)| Distributes Components for hybrid mobile apps with React and Onsen UI |
+| [Evergreen](https://evergreen.segment.com/)| Design system for React |
+| [Rebass](https://rebassjs.org/)| React primitive UI components built with styled system |
+| [Grommet](https://v2.grommet.io/)| mobile first UI component library |
+| [Rimble](https://rimble.consensys.design/)| React design kit, library and guides |
+| [Landing Page Template](https://github.com/cruip/open-react-template/)| Open source landing page template for react |
+| [Elemental UI](http://elemental-ui.com/)| A UI Toolkit for React.js Websites and Apps |
+| [Ant Design](https://ant.design/)| Open source design React UI library. |
+| [Bumbag](https://bumbag.style/)| Bumbag is a friendly React UI Kit suitable for MVPs or large-scale applications. |
+| [PRIMEREACT](https://www.primefaces.org/primereact/)| The ultimate collection of design-agnostic, flexible and accessible React UI Components |
+| [Primer Components](https://primer.style/components/)| Primer Components are React components which implement GitHub's Primer Design System |
+| [Orbit](https://orbit.kiwi/)| Design system and React UI components for travel projects. |
+| [Base Web](https://baseweb.design/)| Base Web provides a robust suite of components out of the box |
+| [Backpack UI](http://lonelyplanet.github.io/backpack-ui/?path=/story/styles--design-tokens)| Backpack is the Lonely Planet toolset that we use to build front end apps. |
+| [Reaviz](https://reaviz.io)| Data visualization library for React based on D3 |
+| [React Suite](https://rsuitejs.com/en/)| A suite of React components, sensible UI design, and a friendly development experience. |
+| [React Spring](https://www.react-spring.io/)| Spring-physics based animation library for React applications. |
+| [Recharts](http://recharts.org/en-US/)| A composable charting library built on React components. |
+| [Vercel UI](https://github.com/geist-org/react) | Modern and minimalist React UI library |
+| [Framer Motion](https://www.framer.com/motion/) | A React library to power production-ready animations. |
+| [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) | A React implementation of Spectrum, Adobe’s design system. |
+| [React tsParticles](https://particles.matteobruni.it/)| A lightweight React component for creating particles |
+| [particles-bg](https://github.com/lindelof/particles-bg)| A React particles animation background component |
+| [Treact](https://treact.owaiskhan.me)| Gallery of free and modern React templates and UI components developed using TailwindCSS as the front-end framework |
+| [OAH-Admin](https://gatsby-admin.paljs.com/extra-components/progress/)| a free React admin dashboard template based on Gatsby with oah-ui components and elements package. |
+| [Carolina Admin Dashboard](https://demo.uifort.com/carolina-react-admin-dashboard-material-ui-free-demo/LandingPage)| Free React admin template is powered by Material-UI components framework and features a clean and fresh design following Google's Material Design specifications. |
+| [Tabler](https://github.com/tabler/tabler-react)| Tabler is a free React admin dashboard template ideal for any kind of back-end web application. |
+| [Sha-el-design](https://github.com/sha-el/sha-el-design)| React components for easier customization and smooth development flow. |
+| [React-WeUI](https://weui.github.io/react-weui/docs/#/react-weui/docs/page/0/articles/0)| React-WeUI made from our love of React and WeChat's WeUI Design. |
+| [Supabase UI](https://ui.supabase.io/)| An open-source UI component library inspired by Tailwind and AntDesign. |
+| [Ring UI](https://github.com/JetBrains/ring-ui)| A collection of JetBrains Web UI components. |
+| [React95](https://react95.io/)| Refreshed Windows 95 style UI components for your React app. |
+| [Reakit](https://reakit.io/)| Reakit is a lower level component library for building accessible high level UI libraries, design systems and applications with React. |
+| [Zent](https://github.com/youzan/zent)| A collection of essential UI components written with React. |
+| [Gestalt](https://github.com/pinterest/gestalt)| A set of React UI components that supports Pinterest’s design language. |
+| [xstyled](https://xstyled.dev/)| A CSS-in-JS framework built for React with props based utilities like display, fontSize or rotate. |
+| [@use-gesture](https://github.com/pmndrs/use-gesture)| Bread n butter utility for component-tied mouse/touch gestures in React. |
+| [React Rainbow](https://react-rainbow.io/)| React Rainbow is a collection of components that will reliably help you build your application in a snap. |
+| [Choc UI](https://choc-ui.tech/)| Choc UI is a set of accessible and reusable components that are commonly used in web applications. |
+| [Elementz](https://elementz.style/)| A React Component library for buliding modern applications easily & quickly. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Vue UI
+
+>UI and component libraries for the Vue JavaScript framework
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Vuetify](https://vuetifyjs.com/en/)| Material design component framework |
+| [Bootstrap Vue](https://bootstrap-vue.org/)| Use Bootstrap components with Vue |
+| [Buefy](https://buefy.org/)| Lightweight UI components based on Bulma |
+| [Semantic UI Vue](https://semantic-ui-vue.github.io)| Semantic UI Vue is the Vue integration for Semantic UI |
+| [VEUI](https://veui.dev/en-US)| VEUI is an enterprise UI component library, based on Vue.js. |
+| [Grace](https://github.com/Trendyol/grace)| Design System For Vue Applications. |
+| [Quasar](https://quasar.dev/)| High-performance Material Design component suite with builders for SPA, SSR, PWA, Mobile (Cordova & Capacitor), Desktop (Electron) and Browser extensions |
+| [Element](https://element.eleme.io/#/en-US)| Desktop UI library for Vue |
+| [Fish UI](https://myliang.github.io/fish-ui/#/components/index)| Vue UI toolkit for the web |
+| [Keen UI](https://josephuspaye.github.io/Keen-UI)| VueUI library with a simple API, inspired by Google's Material Design |
+| [Onsen Vue](https://onsen.io/vue/)| Distributes Components for hybrid mobile apps with Vue and Onsen UI |
+| [Vuejsexamples](https://vuejsexamples.com)| A nice collection of useful vuejs UI components |
+| [Inkline](https://inkline.io)|Inkline is a modern UI/UX Framework for Vue.js designed for creating flawless responsive web applications |
+| [Vuesax](https://vuesax.com/)|Unique and reusable UI components |
+| [Antdv](https://antdv.com/)|UI library for Vue based on Ant Design |
+| [Shards Vue](https://designrevision.com/downloads/shards-vue/)|A high-quality & free Vue UI kit featuring a modern design system with dozens of custom components |
+| [Prime Vue](https://www.primefaces.org/primevue/)|Powerful yet simple to use, versatile, performant Vue UI Component Library to help you build stunning user interfaces.|
+| [Chakra UI Vue](https://vue.chakra-ui.com/)|Chakra UI is a simple modular and accessible component library that gives you the building blocks to build Vue applications with speed.|
+| [View UI](https://www.iviewui.com/)|Dozens of useful and beautiful Vue components made for people with all skill levels with extensive documentation.|
+| [Particles.vue](https://particles.matteobruni.it/)| A lightweight Vue 2.x component for creating particles |
+| [Particles.vue3](https://particles.matteobruni.it/)| A lightweight Vue 3.x component for creating particles |
+| [TC Components](https://components.timos.design) | A library of high-quality ready to use components that will help you speed up your development workflow. |
+| [Vant](https://youzan.github.io/vant) | Lightweight Mobile UI Components built on Vue. |
+| [Equal UI](https://quatrochan.github.io/Equal/) | Open-source Vue 3 components system for your next project based on TypeScript |
+| [Mint UI](https://mint-ui.github.io/#!/en) | Mobile UI elements for Vue.js |
+| [Cube UI](https://didi.github.io/cube-ui/#/en-US) | A fantastic mobile ui lib implement by Vue.js |
+| [Muse UI](https://muse-ui.org/#/en-US) | Based on the Vue 2.0 elegant Material Design UI component library |
+| [AT-UI](https://at-ui.github.io/at-ui/#/en) | AT-UI is a modular front-end UI framework for developing fast and powerful web interfaces based on Vue.js. |
+| [Vuikit](https://vuikit.js.org/) | A consistent and responsive Vue UI library, based on the front-end framework UIkit. |
+| [Wave UI](https://antoniandre.github.io/wave-ui/) | A Vue.js UI framework with only the bright side. |
+| [VueTailwind](https://www.vue-tailwind.com/) | Set of Lightview and fully customizable Vue Components optimized for TailwindCSS. |
+| [Oruga](https://oruga.io/) | Oruga is a lightweight library of UI components for Vue.js without CSS framework dependency. |
+| [BalmUI](https://material.balmjs.com/#/) | BalmUI is a modular and customizable Material Design UI library for Vue.js. |
+| [Weex UI](https://github.com/apache/incubator-weex-ui) | A rich interaction, lightweight, high performance UI library based on Weex. |
+| [Varlet](https://github.com/haoziqaq/varlet) | Varlet is a Material design mobile component library developed based on Vue3, developed and maintained by partners in the community. |
+| [Naive UI](https://www.naiveui.com/en-US/os-theme) | A Vue 3 Component Library. Fairly Complete. Customizable Themes. Uses TypeScript. Not too Slow. |
+| [Vuestic](https://vuestic.dev/) | Free and Open Source UI Library for Vue 3 🤘. |
+| [Vue Final Modal](https://vue-final-modal.org/) | Vue Final Modal is a tiny, renderless, mobile-friendly, feature-rich modal component for Vue.js. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Angular UI
+
+>UI and component libraries for the Angular JavaScript framework
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Material Angular](https://material.angular.io/)| UI library for Angular based on Material design |
+| [NG Bootstrap](https://ng-bootstrap.github.io/#/home)| UI library for Angular based on the Bootstrap framework |
+| [PrimeNG](https://www.primefaces.org/primeng/#/)| Powerful UI component library for Angular |
+| [Onsen Angular](https://onsen.io/angular2/)| Hybrid mobile and PWA UI library for Angular and Onsen UI |
+| [NG Lightning](https://ng-lightning.github.io/ng-lightning/#/)| Native Angular components & directives for Lightning Design System |
+| [NG Semantic](https://ng-semantic.herokuapp.com/)| UI library for Angular based on Semantic UI |
+| [Nebular](https://akveo.github.io/nebular/)| Customizable UI Kit, Auth & Security for Angular |
+| [Alyle UI](https://alyle.io/)| Minimal components set for Angular |
+| [NGX Bootstrap](https://valor-software.com/ngx-bootstrap/#/)| Another UI library for Angular based on the Bootstrap framework |
+| [NG Zorro](https://ng.ant.design/)| UI library for Angular based on Ant Design |
+| [Pagination for datatables](https://www.npmjs.com/package/ngx-pagination) | npm library for pagination |
+| [Multi select dropdown](https://www.npmjs.com/package/ng-multiselect-dropdown) | For multi select drop-dowm in forms |
+| [NG Particles](https://particles.matteobruni.it/)| A lightweight Angular component for creating particles |
+| [Covalent UI](https://teradata.github.io/covalent/v3/#/)| Angular UI Platform focused on solving common enterprise needs |
+| [NGX Foundation](https://ngxfoundation.com/)| UI framework based on the veteran CSS framework foundation |
+| [Clarity](https://clarity.design/)| CSS based Angular UI framework developed by VMware group |
+| [Taiga UI](https://taiga-ui.dev/)| Taiga UI is fully-treeshakable Angular UI Kit consisting of multiple base libraries and several add-ons. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Svelte UI
+
+>UI and component libraries for the Svelte Javascript compiler
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Svelte Material UI](https://sveltematerialui.com/)| UI library for Svelte based on Material Design |
+| [SvelteStrap](https://bestguy.github.io/sveltestrap/)| UI library for Svelte based on the Bootstrap framework |
+| [Svelte Flat UI](https://svelteui.js.org/)|UI library for Svelte based on Flat Design |
+| [Svelte Particles](https://particles.matteobruni.it/)| A lightweight Svelte component for creating particles |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## React Native UI
+
+>UI and component libraries for the React Native Framework
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Magnus UI](https://magnus-ui.com/)| Magnus UI is the ultimate UI framework that helps you in building consistent user interfaces effortlessly in react native |
+| [React Native UI Lib](https://wix.github.io/react-native-ui-lib/)| React Native UI (RNUI) is a UI Toolset & Components Library for React Native from Wix |
+| [React Native Paper](https://reactnativepaper.com/)| React Native Paper is a high-quality, standard-compliant Material Design library that has you covered in all major use-cases |
+| [UI Kitten](https://akveo.github.io/react-native-ui-kitten/)| UI Kitten is React Native framework for creating stunning cross-platform mobile applications. Design system based, brings your product from MVP to enterprise. |
+| [React Native Elements](https://reactnativeelements.com/)| Cross Platform React Native UI Toolkit that provides an all-in-one UI kit for creating apps in react native.  |
+| [NativeBase](https://nativebase.io/)| Essential cross-platform UI components for React Native & Vue Native.  |
+| [Shoutem UI](https://shoutem.github.io/docs/ui-toolkit/introduction)| Shoutem UI toolkit enables you to build professionally looking React Native apps with ease.  |
+| [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn)| Use Tailwind CSS in React Native projects.  |
+| [Ant Design Mobile RN](https://rn.mobile.ant.design/)| An Ant design based configurable Mobile UI component library based on React Native.  |
+| [SnackUI](https://github.com/snackui/snackui)| SnackUI is a UI Kit for React Native + react-native-web that's much faster rocket with an optimizing compiler.  |
+| [Moti](https://moti.fyi/)| Moti is the universal animation package for React Native  |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Design Systems & Style Guides
+
+>Design systems, style guides, toolkits, docs. Some of these are design guides for top companies/websites
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Material Design](https://material.io/)| Google's Material Design |
+| [Ant Design](https://ant.design/)| Design system for enterprise-level products |
+| [Apple Design Resources](https://developer.apple.com/design/resources/)| Guides and templates for using Apple design and UI |
+| [Primer](https://primer.style/)| Design, build, and create with GitHub’s design system |
+| [Alta UI](https://www.oracle.com/webfolder/ux/middleware/alta/index.html)| Oracle's design system and toolkit |
+| [Pulse](https://pulse.heartbeat.ua/)| Design system, guides and React component library |
+| [Bolt](https://boltdesignsystem.com/)| Robust Twig and web component powered UI components |
+| [Clarity Design System](https://clarity.design/)| UX guidelines, HTML/CSS framework, and Angular components |
+| [AtlasKit](https://atlaskit.atlassian.com/)| Atlassian's official UI library, built according to the Atlassian Design Guidelines |
+| [Audi Design Resources](https://www.audi.com/ci/en/guides/user-interface/introduction.html)| Audi UI design system and toolkit |
+| [Carbon Design Systems](https://www.carbondesignsystem.com/)| Carbon is IBM’s open-source design system for products and experiences |
+| [Yelp Style Guide](https://www.yelp.com/styleguide)| Yelp style guide, components and toolkit |
+| [Comet](https://comet.discoveryeducation.com/)| Scalable design system of visual language, components, and design assets |
+| [ETrade Design System](https://etrade.design/)| Guides and toolkits that blend finance with simplicity and ease of use |
+| [Fundamental Library](https://sap.github.io/fundamental-styles/)| Open source and community driven project for consistent user interfaces|
+| [Infor Design](https://design.infor.com/)| Guidelines and resources to create meaningful experiences for Infor’s products |
+| [Lexicon](https://liferay.design/lexicon/)| An experience language for crafting beautiful UI |
+| [Mailchimp UI/UX](https://ux.mailchimp.com/patterns/color)| Style guide and components from Mailchimp |
+| [Marvel Style Guide](https://marvelapp.com/styleguide/overview/introduction)| Set of design principles and components |
+| [Microsoft Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)| Collection of UX frameworks from Microsoft |
+| [Pluralsight Design System](https://design-system.pluralsight.com/)| Design guide with components for designing with Pluralsight |
+| [Polaris](https://polaris.shopify.com/)| Design system that creates great experiences for all of Shopify’s merchants |
+| [Mozilla Protocol](https://protocol.mozilla.org/)| Protocol is a design system for Mozilla and Firefox websites |
+| [SendGrid Style Guide](http://styleguide.sendgrid.com/)| UI library for developing consistent UI/UX at SendGrid  |
+| [VTEX Styleguide](https://styleguide.vtex.com/)| Reusable patterns, components and assets related to product design in VTEX |
+| [Rizzo](https://rizzo.lonelyplanet.com/styleguide/design-elements)| Style guide with UI components, JS components, widgets, etc |
+| [Atomize](https://atomizecode.com/)| UI framework that helps developers collaborate with designers and build consistent user interfaces effortlessly |
+| [StyleGuides.io](http://styleguides.io/)| A directory of 500+ styleguides |
+| [Done Design System](https://uilibrary.github.io/done-design-system/)| Open source design system, guides & components |
+| [Skoda Brand System](https://skoda-brand.com/explore-our-brand) | Design guideline for developing applications under the Skoda brand |
+| [Spectrum](https://spectrum.adobe.com/) | Adobe’s design system that provides components and tools to help product teams work more efficiently, and to make Adobe’s applications more cohesive. |
+| [Asphalt](https://asphalt.gojek.io/) | Gojek’s design language system. A collection of guidelines and components to create amazing user experiences. |
+| [Laws of UX](https://lawsofux.com/) | A collection of the key maxims that designers must consider when building user interfaces. |
+| [Checklist Design](https://www.checklist.design/) | Checklist Design is a curated list of checklists ranging from website pages, to UI components, all the way to branding assets. |
+| [Humane By Design](https://humanebydesign.com/) | A resource that provides guidance for designing ethically humane digital products through patterns focused on user well-being. |
+| [Pr1mer Guidelines](https://guidelines.pr1mer.tech) | An open source set of very general guidelines, inspired by Human Interface. Created and maintained by Pr1mer Tech |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+
+## Online Design Tools
+
+>All kinds of online tools for design, from photo editors to wireframing, and more
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Figma](https://www.figma.com/graphic-design-tool/)| Online graphic design tool (Free & paid options) |
+| [Vectr](https://vectr.com/)| Free vector graphics software|
+| [Taler](https://www.taler.app/)| Create social media banner designs in minutes from hundreds of customizable templates |
+| [Canva](https://www.canva.com/)| Create beautiful designs (Free & Paid) |
+| [Get Waves](https://getwaves.io/)| A free SVG wave generator to make unique SVG waves for web design |
+| [Clippy](https://bennettfeely.com/clippy/)| Easy CSS clip-path maker |
+| [Fancy Border Radius](https://9elements.github.io/fancy-border-radius/full-control.html)| Eight values specifying border-radius in CSS ( border-radius generator ) |
+| [Wireframe.cc](https://wireframe.cc/)| Wireframing tool (free & paid) |
+| [Fotor](https://www.fotor.com/)| Photo editor and design maker |
+| [Pixlr](https://www.pixlr.com/)| Online photo editor |
+| [Animoto Video Maker](https://animoto.com/apps/online-video-maker)| Make videos online |
+| [RemoveBG](https://www.remove.bg/)| Remove image backgrounds |
+| [Photo Creator](https://photos.icons8.com/creator)| Create your own photos instead of searching for stock |
+| [Visme](https://www.visme.co/)| Create presentations, infographics and more |
+| [Infogram](https://infogram.com/)| Create infograms |
+| [ChartGo](https://www.chartgo.com/)| Create charts and graphs online |
+| [Cartoon Photo](https://cartoon.pho.to/)| Turn photos into cartoons |
+| [Whimsical](https://whimsical.com/)| Wireframes, diagrams and more (4 free) |
+| [Whiteboard](https://witeboard.com/)| Online drawing tool |
+| [Octopus](https://octopus.do/)| Sitemap builder |
+| [CTA Button Maker](https://www.clickminded.com/button-generator/)| Create call to action buttons |
+| [Blobmaker](https://www.blobmaker.app/)| Blobmaker is a free generative design tool, to help you quickly create random, unique, and organic-looking SVG shapes.  |
+| [Personas](https://personas.draftbit.com/)| A playful avatar generator for the modern age  |
+| [SoftUI](https://www.softui.io)| A Soft UI (neumorphism) CSS generator  |
+| [Photopea](https://www.photopea.com)| An Online Photoshop editor  |
+| [Excalidraw](https://excalidraw.com/)| Virtual whiteboard for sketching hand-drawn like diagrams  |
+| [Diagrams](https://www.diagrams.net/)| Diagram software and Flowchart maker  |
+| [MapInSeconds](http://mapinseconds.com/)| Simple way to visualize your data with a map  |
+| [Grid Malven](http://grid.malven.co/)| A css grid cheatsheet to reference when creating a css grid  |
+| [Flex Malven](http://flexbox.malven.co/)| A flexbox grid cheatsheet to reference when working with flexbox |
+| [Smart Upscaler](https://icons8.com/upscaler) | Upscale images by 2-4x resolution |
+| [GetAvataaars](https://getavataaars.com/) | Fun and Colorful free avatars web generator tool by Fang-Pen Lin using Pablo Stanley sketch library |
+| [Big Heads](https://github.com/RobertBroersma/bigheads) | Easily generate avatars for your projects with Big Heads by Robert Broersma.
+| [Webflow](https://webflow.com/) | Break the code barrier, Build better business websites, faster. Without coding. |
+| [Trace](https://stickermule.com/trace) | Instantly remove the background from your photos |
+| [Neumorphism.io](https://neumorphism.io/#55b9f3) | Generate Soft-UI CSS shadow code |
+| [DB Designer](https://app.dbdesigner.net/) | Design your database for free online |
+| [Ui Bakery](https://uibakery.io/) | Create full-fledged web apps visually |
+| [Faux](http://knutsynstad.com/fauxcode/) | Turn real code into faux code |
+| [Rive](https://rive.app/) | Real-time interactive design tool that allows you to design, animate, and immediately integrate your assets into any platform.
+| [Unscreen](https://www.unscreen.com/) | Remove Video Background 100% Automatically and Free |
+| [Kodeshot](https://www.kodeshot.net/) | Convert your source code into nice pictures for your articles, tweets, messages, posts... |
+| [Wix](https://www.wix.com/) | Create a Website You’re Proud Of |
+| [GTmetrix](https://gtmetrix.com/) | Website Speed and Performance Optimization |
+| [Framer](https://www.framer.com/) | Is prototyping tool for teams |
+| [Draw.io](https://www.draw.io/) | Free online diagram editor tool |
+| [UXWing SVG Editor](https://uxwing.com/svg-icon-editor)| Creating and Edit SVG Online |
+| [CSS Arrow](http://www.cssarrowplease.com/)| Create and export CSS code for a custom box with an arrow extending out from the side. Great for tooltips, flyouts and the like. |
+| [Lucidchart](https://www.lucidchart.com/pages/)| Diagramming and visualization tools that allows creating databases, flowcharts, boards, floor-maps, and much more. 3 multi-page documents on the free tier |
+| [Carbon](https://carbon.now.sh)| Create and share beautiful images of your source code by typing or drop a file. |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+## Downloadable Design Software
+
+>Free software for UI, photo, 3d modeling, etc. Alternatives to paid software like Photoshop
+
+| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| ----------------------- | ------------------ |
+| [Gimp](https://www.gimp.org/)| Free & open source image editor similar to Photoshop |
+| [Gravit Designer](https://www.designer.io/en/)| Free full-featured vector graphic design app that works on ALL platforms  |
+| [Blender](https://www.blender.org/download/)| Open source, free animation, 3D modeling, etc. |
+| [Raw Therapee](https://rawtherapee.com/)| Cross-platform raw image processing program |
+| [Be Funky](https://www.befunky.com/features/graphic-designer/)| Online design program |
+| [Krita](https://krita.org/en/download/krita-desktop/)| Sketching and painting program designed for digital artists |
+| [Pencil Project](https://pencil.evolus.vn/)| GUI prototyping software |
+| [Inkscape](https://inkscape.org/)| Powerful free design tool |
+| [Adobe XD](https://www.adobe.com/products/xd.html)| Free design tool from Adobe |
+| [Shapes.so](https://shape.so/pricing)| Icons that can be used as code in your projects  |
+| [Lunacy](https://icons8.com/lunacy) | Sketch for Windows |
+| [InVision Studio](https://www.invisionapp.com/studio)| Free screen designing tool from InVision |
+| [Darktable](https://www.darktable.org/)| Free & Open source photography workflow application and raw developer |
+| [Inpixio photo Editor](https://www.inpixio.com/free-photo-editor)| Free Photo Editor: For windows only |
+| [Colorpicker](https://colorpicker.fr)| Open Source colors software: Retrieve, manipulate and store your colors easily! |
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
