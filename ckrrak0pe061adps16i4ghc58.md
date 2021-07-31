@@ -1,6 +1,6 @@
 ## Let's Create A Youtube Clone Using React Native  - Part 1
 
-# Introduction
+## Introduction
 
 YouTube is a free video-sharing website that makes watching video clips easy. You may even make your own videos and post them to enjoy with others. YouTube, which was founded in 2005, is currently one of the most popular apps on the Internet, with over 6 billion hours of video watched each month.
 
@@ -151,7 +151,7 @@ Now when you save your code you should see the output similar to a GIF below
 
 
 
-### Conclusion 
+## Conclusion 
 
 This is it for this part. I hope you found this article helpful. If you need any help please let me know in the comment section
 
