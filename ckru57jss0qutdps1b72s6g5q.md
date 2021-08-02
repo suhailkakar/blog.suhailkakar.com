@@ -77,6 +77,18 @@ Paste the above code too in your `server.js` and that is it. Finally, your `serv
 
 You can find the whole source code in my GitHub repo  [here](https://github.com/suhailkakar/Twilio-SMS-Verify-Node-JS) 
 
+## Testing API in Postman
+ 
+Open Postman desktop and test the APIs, for the first API pass phone number and channel as params and click on send you should see an output similar to the below image
+
+
+![screely-1627880816580.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627880835982/0ri0cuYvd.png)
+
+Now check the phone number which you have given in params, you should receive a code to verify your phone number. 
+
+You can verify the code using the other API
+
+
 ## Conclusion
 
 In this article, we have learned 
