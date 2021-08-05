@@ -547,15 +547,7 @@ Having a list of commands on hand is useful whether you are new to Linux or an e
 
 <td>sudo adduser username</td>
 
-<td>To display value of a variable</td>
-
-</tr>
-
-<tr>
-
-<td>sudo passwd -l 'username'</td>
-
-<td>Displays all environment variables</td>
+<td>To add a new user to your current Linux machine</td>
 
 </tr>
 
@@ -563,23 +555,7 @@ Having a list of commands on hand is useful whether you are new to Linux or an e
 
 <td>sudo userdel -r 'username'</td>
 
-<td>Create a new variable</td>
-
-</tr>
-
-<tr>
-
-<td>sudo usermod -a -G GROUPNAME USERNAME</td>
-
-<td>Remove a variable</td>
-
-</tr>
-
-<tr>
-
-<td>sudo deluser USER GROUPNAME</td>
-
-<td>To set value of an environment variable</td>
+<td>deluser removes a user from a specific group.</td>
 
 </tr>
 
