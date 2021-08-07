@@ -1,4 +1,4 @@
-## Include Html Inside of Html - Just Like Components
+## Include HTML Inside of HTML - Just Like React Components
 
 Yes, you can include HTML inside of HTML, just like a react / angular component. In this short article, I am going to walk you through, how to include HTML inside of HTML. 
 
