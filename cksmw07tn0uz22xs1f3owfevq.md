@@ -1,4 +1,4 @@
-## Remove all console.log() from your project in less than a minutes
+## Remove all console.log() from your project in less than a minute
 
 ### Introduction
 console.log() is a debugging tool that can assist you to figure out what your code is doing. You may follow along as your code executes by displaying a message that contains either descriptive text that tells you what's going on or the values of certain variables.
