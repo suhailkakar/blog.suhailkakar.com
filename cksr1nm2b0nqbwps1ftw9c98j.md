@@ -304,10 +304,6 @@ restart your node.js server an 💥 now we have our API ready
 - Delete a message with the specified `messageId` in the request
 ![Screenshot 2021-08-25 at 06.00.49.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1629867653421/DNJzJ2fBb.png)
 
-Now that you know to create an API, you can read @[Catalin Pit](@Catalinpit) article which is linked below, to know to earn from APIS
-
-
-%[https://catalins.tech/make-money-as-a-developer-by-selling-apis]
 
 
 ### Conclusion ⌛
