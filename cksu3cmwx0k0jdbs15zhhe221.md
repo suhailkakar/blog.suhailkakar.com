@@ -4,15 +4,20 @@ As a developer, we all know a little about Git and GitHub but there are some dev
 
 ### Table of contents
 
+# Table of contents
+
+- [Introduction](#introduction)
 - [Installation](#installation)
   - [Linux](#linux)
+    - [Debian / Ubuntu (apt-get)](#debian--ubuntu-apt-get)
+    - [Fedora (dnf/yum)](#fedora-dnfyum)
   - [Windows](#windows)
   - [Mac](#mac)
 - [Basic GitHub terms](#basic-github-terms)
 - [Basic Git Command](#basic-git-command)
 - [Demonstration](#demonstration)
 - [GitHub special repository](#github-special-repository)
-- [Conclusion ](#conclusion-)
+- [Conclusion ⌛](#conclusion-)
 
 ## Introduction
 Git is a source code management technology used by DevOps. It is a free and open-source version control system that is used to efficiently manage small to extremely big projects.
