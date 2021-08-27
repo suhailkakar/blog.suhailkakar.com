@@ -1,6 +1,6 @@
 ## An Ultimate Guide to Git and Github
 
-As a developer, we all know a little about Git and GitHub but there are some developers who still have doubt and question Git and GitHub. Therefore in this article, I am going to break everything down regarding Git and GitHub, so that you can understand it clearly. 
+As a developer, we all know a little about Git and GitHub but there are some developers who still have doubt and question about Git and GitHub. Therefore in this article, I am going to break everything down regarding Git and GitHub, so that you can understand it clearly. 
 
 ## Introduction
 Git is a source code management technology used by DevOps. It is a free and open-source version control system that is used to efficiently manage small to extremely big projects.
