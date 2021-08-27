@@ -2,6 +2,18 @@
 
 As a developer, we all know a little about Git and GitHub but there are some developers who still have doubt and question about Git and GitHub. Therefore in this article, I am going to break everything down regarding Git and GitHub, so that you can understand it clearly. 
 
+### Table of contents
+
+- [Installation](#installation)
+  - [Linux](#linux)
+  - [Windows](#windows)
+  - [Mac](#mac)
+- [Basic GitHub terms](#basic-github-terms)
+- [Basic Git Command](#basic-git-command)
+- [Demonstration](#demonstration)
+- [GitHub special repository](#github-special-repository)
+- [Conclusion ](#conclusion-)
+
 ## Introduction
 Git is a source code management technology used by DevOps. It is a free and open-source version control system that is used to efficiently manage small to extremely big projects.
 
@@ -158,7 +170,7 @@ GitHub offers a special repository by your username, which should contain a `rea
 
 If you want a similar look, you can fork my repository  [here](https://github.com/suhailkakar/suhailkakar) 
 
-### Conclusion ⌛
+## Conclusion ⌛
 
 I hope you found this article helpful. If you need any help please let me know in the comment section. 
 
