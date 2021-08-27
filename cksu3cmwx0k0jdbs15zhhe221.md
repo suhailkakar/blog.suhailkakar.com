@@ -15,7 +15,7 @@ As a developer, we all know a little about Git and GitHub but there are some dev
 - [Basic Git Command](#basic-git-command)
 - [Demonstration](#demonstration)
 - [GitHub special repository](#github-special-repository)
-- [Conclusion ⌛](#conclusion)
+- [Conclusion ](#conclusion)
 
 ## Introduction
 Git is a source code management technology used by DevOps. It is a free and open-source version control system that is used to efficiently manage small to extremely big projects.
