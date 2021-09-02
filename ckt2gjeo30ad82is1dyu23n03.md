@@ -2,22 +2,23 @@
 
 Gatsby websites are getting popular day by day. Nowadays most of the popular websites use Gatsby because of its speed, SEO and etc, and if you don't know anything about Gatsby, It is probably worth learning it in 2021. 
 
-### Table of Content
-- [What is Gatsby?](#what-is-gatsby-)
-- [What are Static Sites?](#what-are-static-sites-)
-- [Why you should consider using Gatsby?](#why-you-should-consider-using-gatsby-)
-  * [SEO](#seo)
-  * [Plugins](#plugins)
-  * [Speed](#speed)
-  * [Templates](#templates)
-- [Why should you avoid Gatsby?](#why-should-you-avoid-gatsby-)
-  * [Build Time](#build-time)
-  * [Dynamic Websites](#dynamic-websites)
-  * [Complex sites](#complex-sites)
+## Table of contents
+
+- [What is Gatsby?](#what-is-gatsby)
+- [What are Static Sites?](#what-are-static-sites)
+- [Why you should consider using Gatsby?](#why-you-should-consider-using-gatsby)
+  - [SEO](#seo)
+  - [Plugins](#plugins)
+  - [Speed](#speed)
+  - [Templates](#templates)
+- [Why should you avoid Gatsby?](#why-should-you-avoid-gatsby)
+  - [Build Time](#build-time)
+  - [Dynamic Websites](#dynamic-websites)
+  - [Complex sites](#complex-sites)
 - [Set Up Your First Gatsby Website](#set-up-your-first-gatsby-website)
-  * [Installing Gatsby CLI](#installing-gatsby-cli)
-  * [Starter Templates](#starter-templates)
-  * [Run your app locally](#run-your-app-locally)
+  - [Installing Gatsby CLI](#installing-gatsby-cli)
+  - [Starter Templates](#starter-templates)
+  - [Run your app locally](#run-your-app-locally)
 - [Deploying Website To Netlify](#deploying-website-to-netlify)
 - [Conclusion](#conclusion)
 
