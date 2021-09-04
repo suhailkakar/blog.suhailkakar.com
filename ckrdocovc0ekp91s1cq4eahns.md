@@ -10,7 +10,7 @@ Here are three awesome VS Code themes you can start using today.
  
 A professional theme with hand-picked & bold shades of purple for your VS Code editor and terminal. One of the excellent most downloaded and top rated VS Code Themes on the marketplace.
 
-###Installation
+### Installation
 
 * Open the extensions sidebar on Visual Studio Code
 * Search for Shades of Purple Theme
@@ -26,7 +26,7 @@ A professional theme with hand-picked & bold shades of purple for your VS Code e
   
 Atom’s iconic One Dark theme, and one of the most installed themes for VS Code! One Dark Pro is based on Atom’s default One Dark theme, and is one of the most downloaded themes for VS Code.
 
-###Installation
+### Installation
 
 * Open the extensions sidebar on Visual Studio Code
 * Search for One Dark Pro
@@ -41,7 +41,7 @@ Atom’s iconic One Dark theme, and one of the most installed themes for VS Code
    
 Dracula is a color scheme and UI theme tailored for programming. Made for terminal emulators, code editors, and syntax highlighters. Designed to be aesthetically pleasing while keeping you focused.
 
-###Installation
+### Installation
 
 * Open the extensions sidebar on Visual Studio Code
 * Search for Dracula
