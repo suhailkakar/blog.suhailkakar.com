@@ -59,10 +59,11 @@ Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
 ### Code Spell Checker
 
-A simple source code spell checker for multiple programming languages. A basic spell checker that works well with camelCase code. The goal of this spell checker is to help catch common spelling errors while keeping the number of false positives low
+A simple source code spell checker for multiple programming languages. A basic spell checker that works well with camelCase code. The goal of this spell checker is to help catch common spelling errors while keeping the number of false positives low.
+Link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
 ![Kidultsports-Admin-main-1630904330094.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1630904411405/ZHzP6sbSg.gif)
 
-Link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 
 ### Thunder Client
 
@@ -84,9 +85,10 @@ Link: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-syn
 
 Import Cost is a VS Code addon that estimates the size of an import package in your code. It's critical not to jeopardize the user experience by importing large packages when working on a project.
 
+Link: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+
 ![Kidultsports-Admin-main-1630905023525.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1630905056025/lHFcy3kKP.gif)
 
-Link: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
 
 ### Live Share
 Visual Studio Live Share enables you to collaboratively edit and debug with others in real-time, regardless of what programming languages you're using or app types you're building. It allows you to instantly (and securely) share your current project, and then as needed, share debugging sessions, terminal instances, localhost web apps, voice calls, and more.
