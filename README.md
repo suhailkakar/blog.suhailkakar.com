@@ -7,4 +7,4 @@
 <p align="center">
     <img width="150" height="auto" src="https://i.ibb.co/JHpDQDD/Untitled-design-3.png" alt="Suhail Kakar" />
 <h1 align="center">Suhail Kakar's Blog</h1>
-<img src="https://i.ibb.co/chX4wtm/screely-1626886974256.png" />
+<img src="https://i.ibb.co/TMcb9gY/screely-1631731117329.png" />
