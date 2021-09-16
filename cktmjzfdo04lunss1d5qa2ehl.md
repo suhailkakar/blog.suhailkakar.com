@@ -41,7 +41,7 @@ After creating a blog from scratch, you will learn about styled-components, rout
 - Responsive 
 - Dark mode / Light mode
 
-### Weather App
+## Weather App
 
 ![7a9e37c5a0ef32046c9b77ae15a7c26a.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631767905150/7h_89EbiO.webp)
 
@@ -61,7 +61,7 @@ After creating a weather app, you will learn about fetching data from API, posti
 - 4 days Forecast
 - Beautiful UI
 
-### Spotify 2.0
+## Spotify 2.0
 
 
 ![70a6f1884a2b60e14c97abfcb1e63c79.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631768275203/y5kU1PDHD.webp)
@@ -85,7 +85,7 @@ Creating your own Spotify version can help you learn, how to fetch data from API
 - Use profile 
 - Showing lyrics of a song
 
-### Movies App
+## Movies App
 
 ![258c6e7561df582a8d8a530c15d71484.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631768567058/3vg66ckXl.webp)
 
@@ -109,7 +109,7 @@ Creating a movie app can help you learn, how to create a reusable component, how
 - Show movie casts/trailer
 - Show movies based on genre
 
-### Youtube UI Clone
+## Youtube UI Clone
 
 
 ![b3cf7b44134b5655b564c3479fdc097a.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631769189095/9fWtBeFaJ.webp)
@@ -127,7 +127,7 @@ Creating a YouTube UI clone can help you learn about grids, flexbox, handling st
 - Responsive 
 - Beautiful UI
 
-### Chat App
+## Chat App
 
 
 
@@ -147,7 +147,7 @@ Creating a Chat app can help you learn about firebase, authentication,  firebase
 - Real time chat
 - Dark mode / Light mode
 
-### SaaS landing page
+## SaaS landing page
 
 
 ![7d856a8f801c6e83dd49cfc0e2cb940c.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631769866005/ymBVVbo02.webp)
@@ -166,7 +166,7 @@ Developing a landing page for Saas can help you improve your skills in grids, fl
 - Beautiful UI
 
 
-### Task management app
+## Task management app
 ![8f5bd0078206801ffbf185d841d23e7c.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631770315665/aSHXwycJk.webp)
 
 This project could take some time, but it is worth it. You can create a task management website that contains just todos, calendar, and some docs
@@ -186,7 +186,7 @@ Creating a task management app can help you learn about states, markdown, local 
 - Creating Wikis ( using markdown )
 
 
-### eCommerce website UI
+## eCommerce website UI
 
 
 ![626d69985676cb9ecc04f7eb90ff12dd.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631770786483/dSXuomgU_.webp)
@@ -204,7 +204,7 @@ After developing the UI of an eCommerce website you will learn about, reuseable 
 - Responsive 
 - Beautiful UI
 
-### Admin Dashboard
+## Admin Dashboard
 ![89cac265146947d63bb5c18c5e1dfaed.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1631773063000/ne_cQ70yr.webp)
 
 The last one on our list is the admin dashboard. Admin dashboard or Admin panel is a place where the admin/owner of the website manages his/her website. Creating the UI of an Admin Panel can help you to improve your frontend skills
