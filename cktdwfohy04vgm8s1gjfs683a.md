@@ -1,7 +1,7 @@
-## Add An Advanced File Uploader To Your React.js App - Upload Care
+## Add An Advanced File Uploader To Your React.js App - Uploadcare
 
 ### Overview 
-In this article, we are going to integrate Upload Care ( An Advanced File Uploader ) which includes drag-and-drop image uploader, direct link image uploader and etc.. in our react.js app. 
+In this article, we are going to integrate Uploadcare ( An Advanced File Uploader ) which includes drag-and-drop image uploader, direct link image uploader and etc.. in our react.js app. 
 
 
  ### Creating a react app
@@ -72,13 +72,13 @@ Finally, this is how your folder structure should look like 👇
 └── yarn.lock
 ```
 ### Getting an API key
-Signup for an account in   [Upload Care's website](https://app.uploadcare.com/accounts/signup/) and click on API Keys from the sidebar
+Signup for an account in   [Uploadcare's website](https://app.uploadcare.com/accounts/signup/) and click on API Keys from the sidebar
 
 ![screely-1631249553895.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1631249565100/h3_4zD8Ex.png)
 Copy your public key as we need it in further steps.  
 
-### Installing and Adding Upload Care
-Now It is time to install Upload Care in the react application, to do that simply run
+### Installing and Adding Uploadcare
+Now It is time to install Uploadcare in the react application, to do that simply run
 
 ```
 npm install @uploadcare/react-widget
@@ -113,8 +113,8 @@ export default function App() {
 }
 ```
 
-Now, paste your public key in place of `YOUR_PUBILC_KEY` in the above code. Open your browser and go to `localhost:300`. and 💥 now you have upload care integrated into your app. 
-If anyone uploads a file using the upload care widget, You can view those files in your dashboard. 
+Now, paste your public key in place of `YOUR_PUBILC_KEY` in the above code. Open your browser and go to `localhost:300`. and 💥 now you have Uploadcare integrated into your app. 
+If anyone uploads a file using the Uploadcare widget, You can view those files in your dashboard. 
 
 
 ![screely-1631249899662.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1631249909192/E3C-rn7kCp.png)
