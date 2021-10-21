@@ -1,4 +1,4 @@
-## A Beginner's Guide To Solidity - Blockchain Development
+## A Complete Beginner's Guide to Solidity
 
 Solidity is an object-oriented, high-level programming language for creating smart contracts on the blockchain that automate transactions. The language was created by participants to the Ethereum project when it was proposed in 2014. This language is mostly used to make smart contracts on the Ethereum blockchain.
 
