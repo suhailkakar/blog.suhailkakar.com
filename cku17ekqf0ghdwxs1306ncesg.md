@@ -1,4 +1,4 @@
-## The Ultimate Guide to Web 3.0 - The Future of Web
+## A Complete Beginner's Guide to Web 3.0
 
 You've probably heard about Web3 unless you've been living under a rock. Web 3.0 is the next step in the web's growth, and it aims to make the internet more intelligent. Before learning more about Web3, let's understand the evolution of the web first.  
 
