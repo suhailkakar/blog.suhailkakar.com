@@ -1,4 +1,4 @@
-## An Ultimate Guide to Docker - From What is Docker to Dockerizing a Node.js Application
+## A Complete Beginner's Guide to Docker
 
 Docker is an open-source platform that allows us to create, deploy, and manage containerized applications. In this article, we will look at 
 
