@@ -64,7 +64,7 @@ const solver = new Captcha.Solver("API_KEY");
 
 
 - define an async function, here we call it register. 
-we can solve the captcha using the solver which we already initialized and captcha is the type of captcha that we have on Discord website.
+we can solve the captcha using the solver which we already initialized and Hcaptcha is the type of captcha that we have on Discord website.
 It requires two parameters, the Site key and the website URL. The 
 
 
