@@ -77,13 +77,13 @@ Use try-catch, as it may have any error and inside the try, we can make the Axio
 ![screely-1636558440402.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636558453095/7ESFoarKw.png)
 
 The second parameter is the data that you post to the particular website.
-The captcha key value will be the data we specified earlier. I got the data when I filled the discord form and it sent a request.
+The captcha key value will be the **data** that we specified earlier. I got the register form data when I filled the discord form and it sent a request.
 
-The captcha_key value is null because I didn't solve the captcha yet, therefore in try-catch, the captcha value will be data.
+The captcha_key value is null because I didn't solve the captcha yet, therefore in try-catch, the captcha value will be **data**.
 
 ```javascript
  try {
-    let result = await http://axios.post("https://discord.com/api/v9/auth/register", {
+    let result = await axios.post("https://discord.com/api/v9/auth/register", {
         captcha_key: data,
         consent: true,
         date_of_birth: "1985-05-03",
@@ -95,13 +95,13 @@ The captcha_key value is null because I didn't solve the captcha yet, therefore 
         username: "suhailkakar",
 
     });
-    console.log(http://result.data);
+    console.log(result.data);
 } catch (e) {
     console.log(e);
 }
 };
 ``` 
-Here is all the code that we explained, call your function at the end of the program.
+Here is all the code that we discussed, call your function at the end of the program.
 
 ```javascript
 
@@ -118,7 +118,7 @@ const register = async () => {
     );
 
     try {
-        let result = await http://axios.post("https://discord.com/api/v9/auth/register", {
+        let result = await axios.post("https://discord.com/api/v9/auth/register", {
             captcha_key: data,
             consent: true,
             date_of_birth: "1985-05-03",
@@ -129,7 +129,7 @@ const register = async () => {
             password: "bjhdjfhfbjfb",
             username: "ffdvvxjvvnfj",
         });
-        console.log(http://result.data);
+        console.log(result.data);
     } catch (e) {
         console.log(e);
     }
@@ -140,7 +140,7 @@ register();
 
 - Run node your_file_name, in our case node app.js on the terminal.
 
-It will take a bit of time and then you will receive a token. We will use the below function to pass the token and 
+It will take a bit of time and then you will receive a token. We will use the below function to pass the token.
 
 ```js
 function login(token) {
