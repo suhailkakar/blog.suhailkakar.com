@@ -47,7 +47,7 @@ The transaction costs that users pay to miners on a blockchain protocol to get t
 
 ### Crypto Wallet
 
-A crypto wallet is a program or software that allows users to engage and interact with blockchain networks directly. Some popular 
+A crypto wallet is a program or software that allows users to engage and interact with blockchain networks directly. Some popular are Coinbase, Exodus, and BlockFi. 
 
 > Cryptocurrency wallets can be software or hardware-based.
 
