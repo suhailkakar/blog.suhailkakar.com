@@ -2,16 +2,6 @@
 
 We all deal with projects, whether we're project managers, members of project teams, or regular developers. If you work in the corporate world, you know how easily large projects may get disorganized, but not anymore, in this article, I am going to describe how I use ClickUp to efficiently organize my day. 
 
-- [What is ClickUp](#what-is-clickup)
-- [How I use ClickUp](#how-i-use-clickup)
-  - [Spaces](#spaces)
-  - [Tasks](#tasks)
-  - [Wikis](#wikis)
-  - [Embed](#embed)
-  - [Mindmap](#mindmap)
-  - [ClickApps](#clickapps)
-- [Conclusion](#conclusion)
-
 ## What is ClickUp
 
 ClickUp is a powerful project management tool for both teams and individuals. It combines important business applications and centralizes company information into a single online solution.
