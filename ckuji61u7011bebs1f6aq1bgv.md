@@ -1,22 +1,6 @@
 ## A Complete Beginner's Guide to Docker
 
-Docker is an open-source platform that allows us to create, deploy, and manage containerized applications. In this article, we will look at 
-
-- [What is Docker](#what-is-docker)
-- [Benefits of Using Docker](#benefits-of-using-docker)
-  - [Performance](#performance)
-  - [Scalability](#scalability)
-  - [Rapid Deployment](#rapid-deployment)
-  - [CI Efficiency](#ci-efficiency)
-- [Docker Facts](#docker-facts)
-- [Installation of docker](#installation-of-docker)
-  - [Mac](#mac)
-  - [Linux](#linux)
-- [Dockerizing a node.js app](#dockerizing-a-nodejs-app)
-  - [Environment Setup](#environment-setup)
-  - [Dockerfile](#dockerfile)
-  - [Docker Image](#docker-image)
-  - [Docker Containers](#docker-containers)
+Docker is an open-source platform that allows us to create, deploy, and manage containerized applications. In this article, we will learn more about Docker, its advantages, installation, and how to dockerize a Node.js app. So let's begin with What is Docker. 
 
 ## What is Docker
 Docker is a container management service. Docker's entire purpose is to make it simple for developers to create apps, ship them into containers, and then deploy them wherever they want. Now let's discuss what are containers. 
