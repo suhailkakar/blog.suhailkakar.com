@@ -6,21 +6,6 @@ According to its documentation, "Solidity is a curly-bracket language. It is inf
 
 Solidity is also considered a dialect of JavaScript. This implies that if you know JavaScript, learning Solidity should be simple. Before learning more about solidity let's understand some basic terms of blockchain.
 
-## Table of Contents
-- [Ethereum Virtual Machine](#ethereum-virtual-machine)
-- [Smart Contract](#smart-contract)
-- [Environment Setup](#environment-setup)
-- [Reserved Keywords](#reserved-keywords)
-- [Importing other files in Solidity](#importing-other-files-in-solidity)
-- [Comments in Solidity](#comments-in-solidity)
-- [Variables in Solidity](#variables-in-solidity)
-  - [State variable](#state-variable)
-  - [Local Variable](#local-variable)
-- [Operators in Solidity](#operators-in-solidity)
-  - [Arithmetic Operators](#arithmetic-operators)
-  - [Relational Operators](#relational-operators)
-  - [Logical Operators](#logical-operators)
-- [Conclusion](#conclusion)
 
 ## Ethereum Virtual Machine
 
