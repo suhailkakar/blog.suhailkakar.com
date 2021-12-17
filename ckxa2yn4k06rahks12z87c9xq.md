@@ -10,7 +10,7 @@ We'll be adding Polygon (Matic Network) in this tutorial, but the methods are si
 
 ### Step 1
 
-The first step is to open your web browser and go to the Metamask plugin, then to the Network tab (left side of your profile).  Here you will see all the list of Networks which is available by default on Netmask
+The first step is to open your web browser and go to the Metamask plugin, then to the Network tab (left side of your profile).  Here you will see all the list of Networks which is available by default on Metamask
 
 
 ![screely-1639725265515.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639725274703/xX11N-axb.png)
