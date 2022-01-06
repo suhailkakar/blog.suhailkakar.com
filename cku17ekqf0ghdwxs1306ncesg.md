@@ -13,7 +13,8 @@ It is the second stage in the evolution of the web, which is also referred as th
 
 Some of the famous Web 2.0 applications are Google Maps, Facebook, Twitter, YouTube, WordPress and etc. Web technologies such as HTML5, CSS3, and Javascript frameworks such as ReactJs, AngularJs, VueJs, and others enable users to come up with new concepts, allowing users to contribute more to this Social Web.
 
-![Web 1 vs Web 2](https://cdn.hashnode.com/res/hashnode/image/upload/v1632656487492/qgE_ikRLKu.png)
+
+![Blue-and-White-Mind-Map-Presentation-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1641493906203/4Gy4zT_hE.png)
 Now that you have a good understanding of the evolution of the web and its old stages, Let's understand, What is hell is this Web 3.0. 
 
 ## Web 3.0
@@ -62,4 +63,5 @@ Would you like to buy me a coffee, You can do it [here](https://www.buymeacoffee
 Let's connect on  [Twitter](https://twitter.com/suhailkakar)  and  [LinkedIn](https://www.linkedin.com/in/suhailkakar/). 
 
 👋 Thanks for reading, See you next time
+
 
