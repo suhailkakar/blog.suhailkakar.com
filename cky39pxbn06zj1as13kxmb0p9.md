@@ -42,7 +42,7 @@ After you've completed all of these steps, all you have to do now is type your n
 ### Uploading and Selling NFTs on Kollect
 You can now upload your first NFT after successfully creating your Kollect account. On the Kollect website, click the top right button and you will be redirected to a page where you can upload your NFT.
 
-> At the time of writing this article, minting an NFT costs 400 $CKB = $8.01. You can deposit CKB into your Kollect account from your CKB wallet (You can get your accout address on [Kollect wallet page](https://kollect.me/dashboard/my-wallet)) .
+> At the time of writing this article, minting an NFT costs 400 $CKB = $8.01. You can deposit CKB into your Kollect account from your CKB wallet (You can get your account address on [Kollect wallet page](https://kollect.me/dashboard/my-wallet)) .
 
 ![screely-1641482098235.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1641482105372/5hBFXUchQ.png)
 
