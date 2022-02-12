@@ -107,15 +107,16 @@ Now, we need to do some modifications to our Hardhat configuration file. Open up
 ```javascript 
 module.exports = {
   solidity: "0.8.4",
-  networks: {
-    hardhat: {
+  networks:{
+    hardhat:{
       chainId: 1337,
-    },
-    paths: {
-      artifacts: "./src/artifacts",
-    },
+    }
   },
+  paths:{
+    artifacts: "./src/artifacts"
+  }
 };
+
 ```
 In the above code, we added the chainId as 1337, It is because of the Metamask configuration issue. We have also added path to our artifacts which are the compiled version of our contracts. 
 
