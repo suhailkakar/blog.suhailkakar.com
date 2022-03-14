@@ -53,7 +53,7 @@ expo install react-native-webview
 
 Once it is done, open your app's folder in any code editor such as VS code and in app.js paste the following code and save it
 
-```javascript
+```jsx
 import * as React from "react";
 import { WebView } from "react-native-webview";
 
