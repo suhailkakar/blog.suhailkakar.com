@@ -694,6 +694,7 @@ Every developer's job entails some kind of product design. It's not just about h
 | Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
 | ----------------------- | ------------------ |
 | [Bit](https://bit.dev/components)| Provides a huge library of reuseable UI Components for React, Angular, Vue, React Native. Also can be used for sharing UI Components among other team members |
+| [Buttons generator](https://markodenic.com/tools/buttons-generator/)| Provides a huge library of reuseable buttons with amazing design and hover effects |
 | [UILang](http://uilang.com/)| A minimal, UI-focused programming language for web designers |
 | [Medialoot CSS Components](https://medialoot.com/free-themes/css-components/)| Calendars, price grids and other UI components |
 | [Froala Design Blocks](https://froala.com/design-blocks)| Over 170 responsive design blocks ready to be used in your web or mobile apps |
