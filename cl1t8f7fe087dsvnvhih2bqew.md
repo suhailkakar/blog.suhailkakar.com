@@ -195,3 +195,12 @@ It is a great collection of more practical examples, incl. source code and suppo
 
 
 
+## Conclusion
+
+That is it for this article. I hope you found this article useful, if you need any help please let me know in the comment section. 
+
+Let's connect on  [Twitter](https://twitter.com/suhailkakar)  and  [LinkedIn](https://linkedin.com/in/suhailkakar/). 
+
+👋 Thanks for reading, See you next time
+
+
