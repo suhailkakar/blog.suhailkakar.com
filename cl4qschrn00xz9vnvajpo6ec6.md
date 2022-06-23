@@ -166,7 +166,7 @@ I hope this article gave you some idea of building projects to improve your Web3
 
 Images are taken from Dribbble and Unsplash and credit go to their author/designer. 
 
-That is it for this article. I hope you found this article useful, if you need any help please let me know in the comment section.55
+That is it for this article. I hope you found this article useful, if you need any help please let me know in the comment section.
 
 Let's connect on  [Twitter](https://twitter.com/suhailkakar)  and  [LinkedIn](https://linkedin.com/in/suhailkakar/). 
 
