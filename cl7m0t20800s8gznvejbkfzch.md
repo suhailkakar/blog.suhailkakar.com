@@ -758,12 +758,7 @@ export default function getContract() {
 
 ```
 
-Now we need an IPFS client to upload videos and thumbnails. There are many services that offer IPFS service, you can signup and paste your IPFS URL below.
-
-
-![Screenshot_2022-09-03_at_7.06.36_PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216256760/8AyAAgLM3.png align="left")
-
-In your terminal, run the below command to install `web.stroage` JavaSr
+Now we need an IPFS client to upload videos and thumbnails. There are many services that offer IPFS service, you can signup and paste your IPFS URL below code.
 
 Back to the upload page (`pages/upload/index.js`), let's first create an IPFS client to upload videos and thumbnails.
 
