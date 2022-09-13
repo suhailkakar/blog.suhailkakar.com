@@ -729,7 +729,7 @@ export default function Upload() {
 
 ```
 
-And you should see a similar screen if you navigate to `[http://localhost:3000/upload](http://localhost:3000/upload)`.
+And you should see a similar screen if you navigate to [http://localhost:3000/upload](http://localhost:3000/upload).
 
 ![https://cdn.hashnode.com/res/hashnode/image/upload/v1661950450236/UF9styJpw.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661950450236/UF9styJpw.png)
 
