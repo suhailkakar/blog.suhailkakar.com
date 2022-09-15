@@ -13,6 +13,8 @@ The greatest approach to improving your Web3 skills is to use them to create pro
 - Ethereum development environment: Hardhat
 - Layer 2 blockchain: Polygon
 
+You can find the final code of the application [here](https://github.com/suhailkakar/Decentralized-YouTube). 
+
 ## Prerequisites
 
 Before you start with the tutorial make sure you have [Node.js](https://nodejs.org/en/) v14 or greater, and the [Metamask](https://metamask.io/download/) browser extension installed on your machine.
