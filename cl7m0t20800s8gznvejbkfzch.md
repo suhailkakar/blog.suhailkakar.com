@@ -1,4 +1,4 @@
-## Building a Full Stack Web3 YouTube Clone with Next, IPFS, The Graph,  Solidity, and Polygon
+## Building a Full Stack Web3 YouTube Clone with Next, IPFS, The Graph,  Solidity, and Livepeer
 
 Every day more and more people are transiting to Web3. The demand for developers is increasing and skills in blockchain development are among the most in-demand in the tech industry.
 
@@ -12,8 +12,9 @@ The greatest approach to improving your Web3 skills is to use them to create pro
 - CSS Framework: TailwindCSS
 - Ethereum development environment: Hardhat
 - Layer 2 blockchain: Polygon
+- Video Infrastructure: Livepeer
 
-You can find the final code of the application [here](https://github.com/suhailkakar/Decentralized-YouTube). 
+You can find the final code of the application [here](https://github.com/suhailkakar/Decentralized-YouTube).
 
 ## Prerequisites
 
@@ -23,15 +24,15 @@ Before you start with the tutorial make sure you have [Node.js](https://nodejs.o
 
 The first step is to set up a next.js app and install the required dependencies. In order to do that, you would need to run the below command in your terminal.
 
-```bash
+```
 mkdir web3-youtube && cd web3-youtube && npx create-next-app .
 ```
 
-The following command creates a new directory named `web3-youtube`, then navigates to that directory and creates a next.js app.
+The following command creates a new directory named `web3-youtube`, then navigates to that directory and creates a Next.js app.
 
 Once the project is created successfully, run the following command to install a few other dependencies.
 
-```bash
+```
 npm install react-icons plyr-react moment ipfs-http-client ethers @apollo/client graphql dotenv
 ```
 
@@ -69,19 +70,19 @@ The above command will scaffold the basic Solidity development environment. You 
 
 Tailwind CSS is a utility-first CSS framework for building user interfaces rapidly. We will be using it for styling our applications. Run the below command to install tailwindcss and its dependencies.
 
-```bash
+```
 npm install --dev tailwindcss postcss autoprefixer
 ```
 
 Once the dependencies are installed, we need to initiate the Tailwind CSS. To do that, run the below code in your terminal.
 
-```bash
+```
 npx tailwind init -p
 ```
 
 The above command will generate two files named `tailwind.config.js` and `postcss.config.js`. Next, open the project in any code editor and replace the code inside `tailwind.config.js` with the below code.
 
-```jsx
+```
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -92,11 +93,12 @@ module.exports = {
   },
   plugins: [],
 }
+
 ```
 
 At last, add the tailwind directives for each of Tailwind’s layers to the `./styles/globals.css` file.
 
-```css
+```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -104,7 +106,7 @@ At last, add the tailwind directives for each of Tailwind’s layers to the `./s
 
 You can also check if Tailwind CSS is integrated successfully by updating the code inside of the `pages/index.js` file.
 
-```jsx
+```
 import React from "react";
 
 export default function index() {
@@ -117,6 +119,7 @@ export default function index() {
     </div>
   );
 }
+
 ```
 
 Save the file and run `npm run dev` to start the next.js app and you should see a similar page.
@@ -132,7 +135,7 @@ Now that the project setup is completed, we can start writing smart contracts fo
 
 In the contracts folder, create a new file named `Youtube.sol` and add the following code to it.
 
-```solidity
+```
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
@@ -222,7 +225,7 @@ contract YouTube {
 
 Now, we need to do some modifications to the Hardhat configuration file in order to deploy our smart contract. Open  `hardhat.config.js` in your code editor and update the module.exports object to the below code.
 
-```jsx
+```
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
@@ -230,7 +233,7 @@ module.exports = {
   solidity: "0.8.9",
   networks: {
     mumbai: {
-      url: "https://rpc-mumbai.maticvigil.com",
+      url: "<https://rpc-mumbai.maticvigil.com>",
       accounts: process.env.PRIVATE_KEY,
     },
   },
@@ -238,6 +241,7 @@ module.exports = {
     artifacts: "./artifacts",
   },
 };
+
 ```
 
 To deploy our contract, we need a private key. Open Metamask in your browser and click on three top right and choose account details.
@@ -256,6 +260,7 @@ Create a `.env` file in the projects root directory and add your private key.
 
 ```
 PRIVATE_KEY="YOUR_METAMASK_PRIVATE_KEY"
+
 ```
 
 > Never ever share your private key. Anyone with your private keys can steal any assets held in your account.
@@ -267,17 +272,19 @@ Now that our smart contract is completed, let's go ahead and compile them. You c
 
 ```
 npx hardhat compile
+
 ```
 
 if you have encountered Error HH801: `Plugin @nomicfoundation/hardhat-toolbox requires the following dependencies to be installed`. Run the below command to install hardhat dependencies
 
-```bash
+```
 npm install --save-dev "@nomicfoundation/hardhat-network-helpers@^1.0.0" "@nomicfoundation/hardhat-chai-matchers@^1.0.0" "@nomiclabs/hardhat-ethers@^2.0.0" "@nomiclabs/hardhat-etherscan@^3.0.0" "@types/chai@^4.2.0" "@types/mocha@^9.1.0" "@typechain/ethers-v5@^10.1.0" "@typechain/hardhat@^6.1.2" "chai@^4.2.0" "hardhat-gas-reporter@^1.0.8" "solidity-coverage@^0.7.21" "ts-node@>=8.0.0" "typechain@^8.1.0" "typescript@>=4.5.0"
+
 ```
 
 Once the package is installed, re-run the above compile command.
 
-After the compile successfully completes, you should see a new directory named `artifacts` created in your projects directory. 
+After the compile successfully completes, you should see a new directory named `artifacts` created in your projects directory.
 
 Artifacts contain the compiled version of our smart contract in JSON format. This JSON file contains an array called ABI. ABI or Application Binary Interface is what we need to connect our client (Next app) with our compiled smart contract.
 
@@ -297,6 +304,7 @@ New RPC URL: <https://rpc-mumbai.maticvigil.com/>
 Chain ID: 80001
 Currency Symbol: MATIC
 Block Explorer URL: <https://polygonscan.com/>
+
 ```
 
 Save it and you should see 0.2 MATIC on your Metamask wallet.
@@ -305,7 +313,7 @@ Save it and you should see 0.2 MATIC on your Metamask wallet.
 
 Next, replace the code inside `scripts/deploy.js` with the below code.
 
-```jsx
+```
 // We require the Hardhat Runtime Environment explicitly here. This is optional
 // but useful for running the script in a standalone fashion through `node <script>`.
 //
@@ -338,18 +346,21 @@ main()
     console.error(error);
     process.exit(1);
   });
+
 ```
 
 At last, run the below command to deploy your smart contract.
 
 ```
 npx hardhat run scripts/deploy.js --network mumbai
+
 ```
 
 This command will take some time, but once it is completed, you should see a message similar to this:
 
 ```
 YouTube deployed to: 0x0AE42f411420b2710474e5e4f2F551b36350F9D1
+
 ```
 
 And that means our contract was successfully deployed 🎉
@@ -366,7 +377,7 @@ A subgraph extracts data from a blockchain, processing it and storing it so that
 
 To create a subgraph, you first need to install The Graph CLI. The Graph CLI is written in JavaScript, and you will need to install either yarn or npm to use it. You can run the below command to install it.
 
-```bash
+```
 npm install -g @graphprotocol/graph-cli
 ```
 
@@ -457,17 +468,17 @@ yarn deploy
 
 If everything goes fine, you should see your subgraph link similar to the below output. 🎉
 
-```bash
+```
 Build completed: QmV19RJaCXCcKKBe3BTyrL8cGqKNaEo9kpwxMTgrPnDKYA
 
-Deployed to https://thegraph.com/explorer/subgraph/suhailkakar/test-blog-yt
+Deployed to <https://thegraph.com/explorer/subgraph/suhailkakar/test-blog-yt>
 
-Queries (HTTP):     https://api.thegraph.com/subgraphs/name/suhailkakar/test-blog-yt
+Queries (HTTP):     <https://api.thegraph.com/subgraphs/name/suhailkakar/test-blog-yt>
 ```
 
 ## The Frontend
 
-Now that we have completed smart contracts, it is time to work on the front end of the application.  Let’s start with the Authentication of the app. 
+Now that we have completed smart contracts, it is time to work on the front end of the application.  Let’s start with the Authentication of the app.
 
 ### Authentication
 
@@ -475,7 +486,7 @@ The first step is to set up authentication in our app that allows users to conne
 
 Erase everything inside of `index.js` in the page directory and inside import the `Landing` file to the file. Here is what your index.js file should look like.
 
-```jsx
+```
 import React from "react";
 import Landing from "./landing";
 
@@ -491,7 +502,7 @@ Now, on the landing page, we will create a simple hero component with connect wa
 
 Add the below code to the landing page. I have already added comments so you can understand them properly.
 
-```jsx
+```
 import React, { useState } from "react";
 
 function Landing() {
@@ -577,7 +588,7 @@ Now that users are able to connect their wallets, it is time to add upload video
 
 Create a new folder in the pages directory named `upload` and add a file named  `index.js`. Inside of the file adds the below code. Again I have already added the comments on the code, so I hope that helps you to understand it.
 
-```jsx
+```
 import React, { useState, useRef } from "react";
 import { BiCloud, BiMusic, BiPlus } from "react-icons/bi";
 import { create } from "ipfs-http-client";
@@ -737,9 +748,9 @@ And you should see a similar screen if you navigate to [http://localhost:3000/up
 
 This is a basic upload page, for now, we just have the inputs and save their value of them in the state.
 
-Before working on the handle submit function, create a new folder named `utils` and inside of it create a file named `getContract`. This file will be used to interact with your contract on the upload page. Add the below code to it and make sure to replace the contract address with your contract address. 
+Before working on the handle submit function, create a new folder named `utils` and inside of it create a file named `getContract`. This file will be used to interact with your contract on the upload page. Add the below code to it and make sure to replace the contract address with your contract address.
 
-```jsx
+```
 import ContractAbi from "../artifacts/contracts/YouTube.sol/YouTube.json";
 import { ethers } from "ethers";
 
@@ -760,72 +771,185 @@ export default function getContract() {
 
 ```
 
-Now we need an IPFS client to upload videos and thumbnails. There are many services that offer IPFS service, you can signup and paste your IPFS URL below code.
+### Integrating IPFS (Web3 Storage)
 
-Back to the upload page (`pages/upload/index.js`), let's first create an IPFS client to upload videos and thumbnails.
+Now we need an IPFS client to upload thumbnails. There are many services that offer IPFS service, but for this tutorial, we will use [web3.storage](https://web3.storage/). 
+
+Create a new account in web3.storage and then navigate to the [Tokens](https://web3.storage/tokens/) page.
+
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1663494411044/mwVXLF6df.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663494411044/mwVXLF6df.png)
+
+Create a new token and copy the generated token as we will need it later.
+
+In the utils folder, create a new file named `saveToIPFS.js` and add the following code inside of it.
 
 ```jsx
-  const client = create("YOU_IPFS_CLIENT_LINK_HERE");
+// importing axios
+import axios from "axios";
+
+const saveToIPFS = async (file) => {
+  // create a new multipart form data
+  const formData = new FormData();
+  // add file to the form data
+  formData.append("file", file);
+
+  var config = {
+    method: "post",
+    url: "https://api.web3.storage/upload",
+    headers: {
+      Authorization: `Bearer WEB3_STORAGE_TOKEN`,
+      "Content-Type": "text/plain",
+    },
+    data: formData,
+  };
+
+  // Posting the form data to the IPFS API
+  const response = await axios(config);
+  // returning the CID
+  return response.data.cid;
+};
+
+export default saveToIPFS;
 ```
 
-Now let's declare 4 functions in the upload page.
+> Make sure to update "WEB3_STORAGE_TOKEN" with the token which you have copied from the Web3 storage website.
+> 
+
+This is the file which we will use in order to upload thumbnails to the IPFS.
+
+Next, we need to integrate Livepeer in order to upload the videos and serve them through Livepeer CDN.
+
+### Integrating Livepeer
+
+Livepeer is a decentralized video processing network and developer platform which you can use to build video applications. It is very fast, easy to integrate and cheap. In this tutorial we will be using Livepeer to upload videos and serve it.
+
+Navigate to [https://livepeer.studio/register](https://livepeer.studio/register) and create a new account on Livepeer Studio. 
+
+
+![Untitled.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663499520514/a6Qlgqg4F.png align="left")
+
+Once you have created an account, in the dashboard, click on the **Developers** on the sidebar. 
+
+
+![Screenshot_2022-09-18_at_3.51.05_PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663499536756/KdjmEOLfU.png align="left")
+
+Then, click on **Create API Key,** give a name to your key and then copy it as we will need it later. 
+
+![Screenshot 2022-09-18 at 3.51.29 PM.png](Untitled%209b404b67b7af4580b9cb7a4b3045db04/Screenshot_2022-09-18_at_3.51.29_PM.png)
+
+Now back to the code, go ahead and install `livepeer.js` by running the below command in your terminal
+
+```
+npm install livepeer.js
+```
+
+Livepeer.js is a JavaScript SDK with ready-to-use hooks that allows us to quickly upload video, serve videos and connect to Livepeer Studio. Once the package is installed, create a new file inside of the root directory named `livepeer.js` and add the below code to initialise a Livepeer client.
 
 ```jsx
-  // When user clicks on the upload button
+import { createReactClient } from "@livepeer/react";
+import { studioProvider } from "livepeer/providers/studio";
+
+const LivePeerClient = createReactClient({
+  provider: studioProvider({ apiKey: "YOUR_API_KEY" }),
+});
+
+export default LivePeerClient;
+```
+
+Make sure to replace the `YOUR_API_KEY` with the key which you just copied from the Livepeer dashboard. And also replace the code inside of `_app.js` in the page directory with the below code.
+
+```jsx
+import "../styles/globals.css";
+import { LivepeerConfig } from "@livepeer/react";
+import LivePeerClient from "../livepeer";
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <LivepeerConfig client={LivePeerClient}>
+      <Component {...pageProps} />
+    </LivepeerConfig>
+  );
+}
+
+export default MyApp;
+```
+
+And that is it, you can now use Livepeer to upload assets/videos.
+
+Back, let's import `saveToIPFS` and `Livepeer` by adding the below code on top of the component
+
+```
+import saveToIPFS from "../../utils/saveToIPFS";
+import { useCreateAsset } from "@livepeer/react";
+```
+
+You can also add the below Livepeer hook after the reference. 
+
+```jsx
+const {
+    mutate: createAsset,
+    data: asset,
+    uploadProgress,
+    status,
+    error,
+  } = useCreateAsset();
+```
+
+The above hook will be used in order to upload videos to the Livepeer.  Next, add the below functions to the upload page after the Livepeer hook. 
+
+```jsx
+// When a user clicks on the upload button
   const handleSubmit = async () => {
-    // Checking if user has filled all the fields
-    if (
-      title === "" ||
-      description === "" ||
-      category === "" ||
-      location === "" ||
-      thumbnail === "" ||
-      video === ""
-    ) {
-      // If user has not filled all the fields, throw an error
-      alert("Please fill all the fields");
-      return;
-    }
-    // If user has filled all the fields, upload the thumbnail to IPFS
-    uploadThumbnail(thumbnail);
-  };
-
-  const uploadThumbnail = async (thumbnail) => {
-    try {
-      // Uploading the thumbnail to IPFS
-      const added = await client.add(thumbnail);
-      // Getting the hash of the uploaded thumbnail and passing it to the uploadVideo function
-      uploadVideo(added.path);
-    } catch (error) {
-      console.log("Error uploading file: ", error);
-    }
-  };
-
-  const uploadVideo = async (thumbnail) => {
-    try {
-      // Uploading the video to IPFS
-      const added = await client.add(video);
-      // Getting the hash of the uploaded video and passing both video and thumbnail to the saveVideo function
-      await saveVideo(added.path, thumbnail);
-    } catch (error) {
-      console.log("Error uploading file: ", error);
-    }
-  };
-
-  const saveVideo = async (video, thumbnail) => {
-    // Get the contract from the getContract function
-    let contract = await getContract();
-    // Get todays date
-    let UploadedDate = String(new Date());
-    // Upload the video to the contract
-    await contract.uploadVideo(
-      video,
+    // Calling the upload video function
+    await uploadVideo();
+    // Calling the upload thumbnail function and getting the CID
+    const thumbnailCID = await uploadThumbnail();
+    // Creating a object to store the metadata
+    let data = {
+      video: asset?.id,
       title,
       description,
       location,
       category,
-      thumbnail,
-      UploadedDate
+      thumbnail: thumbnailCID,
+      UploadedDate: Date.now(),
+    };
+    // Calling the saveVideo function and passing the metadata object
+    await saveVideo(data);
+  };
+
+  // Function to upload the video to IPFS
+  const uploadThumbnail = async () => {
+    // Passing the file to the saveToIPFS function and getting the CID
+    const cid = await saveToIPFS(thumbnail);
+    // Returning the CID
+    return cid;
+  };
+
+  // Function to upload the video to Livepeer
+  const uploadVideo = async () => {
+    // Calling the createAsset function from the useCreateAsset hook to upload the video
+    createAsset({
+      name: title,
+      file: video,
+    });
+  };
+
+  // Function to save the video to the Contract
+  const saveVideo = async (data) => {
+    // Get the contract from the getContract function
+    let contract = await getContract();
+
+    // Upload the video to the contract
+    await contract.uploadVideo(
+      data.video,
+      data.title,
+      data.description,
+      data.location,
+      data.category,
+      data.thumbnail,
+      false,
+      data.UploadedDate
     );
   };
 ```
@@ -841,7 +965,7 @@ We are done with the upload functionality. You should now be able to upload vide
 
 In order to fetch videos from The Graph, we need to set up a graphQL client. Create a new file named `client.js` in the root directory and add the following code inside of it.
 
-```jsx
+```
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
@@ -850,19 +974,24 @@ cache: new InMemoryCache(),
 });
 
 export default client;
+
 ```
 
 Make sure to replace the URI with your graph URL. And also replace the code inside of `_app.js` in the page directory with the below code.
 
-```jsx
+```
 import { ApolloProvider } from "@apollo/client";
 import client from "../client";
 import "../styles/globals.css";
+import { LivepeerConfig } from "@livepeer/react";
+import LivePeerClient from "../livepeer";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ApolloProvider client={client}>
-      <Component {...pageProps} />
+			<LivepeerConfig client={LivePeerClient}>
+	      <Component {...pageProps} />
+			</LivepeerConfig>
     </ApolloProvider>
   );
 }
@@ -870,13 +999,13 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 ```
 
-In the above code, we have wrapped our code with `ApolloProvider` and provided the client which we created earlier as a prop. 
+In the above code, we have wrapped our code with `ApolloProvider` and provided the client which we created earlier as a prop.
 
 ### Fetching videos from Blockchain
 
 Create a new file named `index.js` inside of a new folder named `home`. And for now you can add the below code to the file.
 
-```jsx
+```
 import React, { useEffect, useState } from "react";
 import { useApolloClient, gql } from "@apollo/client";
 
@@ -959,6 +1088,7 @@ export default function Main() {
     </div>
   );
 }
+
 ```
 
 Save the file and you should see a similar output.
@@ -968,10 +1098,11 @@ Save the file and you should see a similar output.
 As you can see for now we are just fetching the video title. So let's create a reusable component to display the videos nicely.
 
 > Make sure to upload a few videos so you can see the above output
+> 
 
 Create a folder named `components`, and then create a new file named `Video.js` inside of it. Add the below code the file. It is a very basic video component.
 
-```jsx
+```
 import React from "react";
 import { BiCheck } from "react-icons/bi";
 import moment from "moment";
@@ -1009,13 +1140,14 @@ export default function Video({ horizontal, video }) {
     </div>
   );
 }
+
 ```
 
 Import the Video component to the home file and replace the map function with the below code.
 
-```jsx
+```
 {videos.map((video) => (
-		<div 
+		<div
 			className="w-80"
 			onClick={() => {
 				// Navigation to the video screen (which we will create later)
@@ -1029,30 +1161,33 @@ Import the Video component to the home file and replace the map function with th
 
 Save the file and now you should see a nice-looking homepage, similar to below image.
 
-
-![Untitled.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216234585/PiCmF_MwI.png align="left")
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1662216234585/PiCmF_MwI.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216234585/PiCmF_MwI.png)
 
 ### Video page
 
 Now that we are able to fetch the videos in the home screen. Let's work on the video page where the user will be redirected if they click on any video component.
 
 Create a new file in the components folder named `Player` and add the below code to it.
-We are using `react plyr` to create a video player component.
+We are using Livepeer player to create a video player component.
 
-```jsx
+```
+import React from "react";
+import { useAsset } from "@livepeer/react";
 import Plyr from "plyr-react";
 import "plyr-react/plyr.css";
 
-export default function Player({ hash }) {
-  let url = `https://ipfs.io/ipfs/${hash}`;
+export default function Player({ id }) {
+  const { data: asset } = useAsset(id);
+
   return (
     <Plyr
       source={{
         type: "video",
-        title: "Example title",
+        title: asset?.name,
+
         sources: [
           {
-            src: url,
+            src: asset?.downloadUrl,
             type: "video/mp4",
           },
         ],
@@ -1064,12 +1199,11 @@ export default function Player({ hash }) {
     />
   );
 }
-
 ```
 
-Create another file in the same directory named  `VideoContainer` . Imagine this component as the left side of the youtube video page, which contains a player, video title, upload date, and description. Add the below code to the file. 
+Create another file in the same directory named  `VideoContainer` . Imagine this component as the left side of the youtube video page, which contains a player, video title, upload date, and description. Add the below code to the file.
 
-```jsx
+```
 import React from "react";
 import Player from "./Player";
 
@@ -1089,14 +1223,13 @@ export default function VideoComponent({ video }) {
     </div>
   );
 }
-
 ```
 
-At last create a new folder named video inside of pages folder and create a new file `index.js` of it. 
+At last create a new folder named video inside of pages folder and create a new file `index.js` of it.
 
-For now you can add the following code to the file. 
+For now you can add the following code to the file.
 
-```jsx
+```
 import React, { useEffect, useState } from "react";
 import { useApolloClient, gql } from "@apollo/client";
 import Video from "../../components/Video";
@@ -1206,19 +1339,20 @@ export default function VideoPage() {
     </div>
   );
 }
+
 ```
 
-Save the file and click on any videos on the home screen. You should be redirected to the video screen similar to the below page. 
+Save the file and click on any videos on the home screen. You should be redirected to the video screen similar to the below page.
 
-![Untitled 1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216213152/aBmEGvHak.png align="left")
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1662216213152/aBmEGvHak.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216213152/aBmEGvHak.png)
 
 ### Search Functionality
 
-Now that we are almost completed with app’s functionality. Let’s also add a search functionality. 
+Now that we are almost completed with app’s functionality. Let’s also add a search functionality.
 
 In the components folder, create a new file named `Header.js`. For now, you can add the below code.
 
-```jsx
+```
 import React from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 
@@ -1228,7 +1362,7 @@ export const Header = ({ search }) => {
       <div className=" w-1/3	">
         <img
           width={80}
-          src={"https://i.ibb.co/JHn1pjz/logo.png"}
+          src={"<https://i.ibb.co/JHn1pjz/logo.png>"}
           alt="YouTube Logo"
         />
       </div>
@@ -1254,13 +1388,14 @@ export const Header = ({ search }) => {
     </header>
   );
 };
+
 ```
 
-This is a very simple component that is divided into 3 parts. On the left we have a logo of the application, on the middle we have declared a input that users can type to search and at the last we have a icon that navigates users to the upload screen. 
+This is a very simple component that is divided into 3 parts. On the left we have a logo of the application, on the middle we have declared a input that users can type to search and at the last we have a icon that navigates users to the upload screen.
 
 Back to the home page (`pages/home/index.js`) import the Header component and add if after line number 73
 
-```jsx
+```
 // <div className="flex-1 h-screen flex flex-col">
 		<Header
 		  search={(e) => {
@@ -1268,32 +1403,34 @@ Back to the home page (`pages/home/index.js`) import the Header component and ad
 		  }}
 		/>
 // <div className="flex flex-row flex-wrap">
+
 ```
 
-Now you should see a header component in the home page. 
+Now you should see a header component in the home page.
 
+![Untitled 2.png]([https://cdn.hashnode.com/res/hashnode/image/upload/v1662216197544/UkcDuYGN0.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216197544/UkcDuYGN0.png) align="left")
 
-![Untitled 2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216197544/UkcDuYGN0.png align="left")
+Declare a new state on the home page after line 8 to capture the value in the search screen.
 
-Declare a new state on the home page after line 8 to capture the value in the search screen. 
-
-```jsx
+```
 const [search, setSearch] = useState("");
+
 ```
 
-You can also update the Header component to set the value of the input in the above useState. 
+You can also update the Header component to set the value of the input in the above useState.
 
-```jsx
+```
 <Header
 	search={(e) => {
 		setSearch(e);
 	}}
  />
+
 ```
 
-Let’s also update the `getVideos` function to search videos in case there is some value in the state. 
+Let’s also update the `getVideos` function to search videos in case there is some value in the state.
 
-```jsx
+```
 const getVideos = async () => {
     // Query the videos from the graph
     client
@@ -1321,27 +1458,28 @@ const getVideos = async () => {
         alert("Something went wrong. please try again.!", err.message);
       });
   };
+
 ```
 
-In the above function, we just added a `where` object to search for videos in case there is a value in the state. 
+In the above function, we just added a `where` object to search for videos in case there is a value in the state.
 
-Finally, update the useEffect function to also run the function if there is a change in the search state. 
+Finally, update the useEffect function to also run the function if there is a change in the search state.
 
-```jsx
+```
 useEffect(() => {
     // Runs the function getVideos when the component is mounted and also if there is a change in the search stae
 	    getVideos();
   }, [search]);
+
 ```
+
 And now if you search anything, you should see the videos automatically filters. Yayy 🎉
 
-![Untitled 3.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216176149/qXYUoFJFK.png align="left")
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1662216176149/qXYUoFJFK.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662216176149/qXYUoFJFK.png)
 
+## What’s Next?
 
-
-## ****What’s Next?****
-
-If you have come this far, it means that you have very passionate about building Web3 applications. here are a few other functionalities/improvements which you can add to the application if you are interested. 
+If you have come this far, it means that you have very passionate about building Web3 applications. here are a few other functionalities/improvements which you can add to the application if you are interested.
 
 - Allowing users to search for videos based on video category. (Check this repo, if you need a reference)
 - Trying to use Arweave instead of IFPS and see how it works.
