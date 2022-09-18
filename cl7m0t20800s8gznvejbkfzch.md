@@ -835,7 +835,9 @@ Once you have created an account, in the dashboard, click on the **Developers** 
 
 Then, click on **Create API Key,** give a name to your key and then copy it as we will need it later. 
 
-![Screenshot 2022-09-18 at 3.51.29 PM.png](Untitled%209b404b67b7af4580b9cb7a4b3045db04/Screenshot_2022-09-18_at_3.51.29_PM.png)
+
+
+![livepeer-key.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663499827857/f6ZXyzHdd.png align="left")
 
 Now back to the code, go ahead and install `livepeer.js` by running the below command in your terminal
 
