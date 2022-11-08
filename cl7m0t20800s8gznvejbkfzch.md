@@ -1,4 +1,4 @@
-## Building a Full Stack Web3 YouTube Clone with Next, IPFS, The Graph,  Solidity, and Livepeer
+# Building a Full Stack Web3 YouTube Clone with Next, IPFS, The Graph,  Solidity, and Livepeer
 
 Every day more and more people are transiting to Web3. The demand for developers is increasing and skills in blockchain development are among the most in-demand in the tech industry.
 
@@ -842,7 +842,7 @@ Then, click on **Create API Key,** give a name to your key and then copy it as w
 Now back to the code, go ahead and install `livepeer.js` by running the below command in your terminal
 
 ```
-npm install livepeer.js
+npm i @livepeer/react
 ```
 
 Livepeer.js is a JavaScript SDK with ready-to-use hooks that allows us to quickly upload video, serve videos and connect to Livepeer Studio. Once the package is installed, create a new file inside of the root directory named `livepeer.js` and add the below code to initialise a Livepeer client.
