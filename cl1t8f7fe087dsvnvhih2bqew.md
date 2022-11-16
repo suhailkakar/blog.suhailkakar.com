@@ -1,4 +1,4 @@
-## The Complete Roadmap and Resources to Become a Web3 Developer in 2022
+# The Complete Roadmap and Resources to Become a Web3 Developer in 2022
 
 Every day more and more people are transiting to Web3. The demand for developers is increasing as Crypto use grows at an exponential rate. Skills in blockchain development are among the most in-demand in the tech industry. It's difficult to find a proper/clean roadmap and resource to get started with Web3 because it's so new.
 
@@ -162,6 +162,18 @@ Once you build your projects, make them live and push your code to GitHub (if po
 If you feel that you are ready for the job, you can apply for a blockchain/Web3 developer. In case you aren't sure where to apply for. Here is a list of sites where you can find Web3 jobs. 
  
 %[https://twitter.com/SuhailKakar/status/1491706184897806336]
+
+
+Web3 development is a vast ecosystem. As a beginner who wants to get into web3 development, it could be a little hard to focus and learn in a proper way. If you are a self-thought developer, it's your responsibility to find a standard structure to follow. It is better to stick to a set of guidelines. 
+
+
+## Alchemy University
+
+Alchemy University is the ultimate ecosystem for learning how to build and interact with web3. Alchemy University is completely free and one of the best resources that can help you get started with Web3 development. 
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668594980529/jyWTTdpOs.png align="left")
+
+
 
 
 ---
