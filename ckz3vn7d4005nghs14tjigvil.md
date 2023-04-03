@@ -111,15 +111,15 @@ Once completed, you should see below new files/folders generated on your project
 
 ### Modifying the Hardhat configurations
 
-Now, we need to do some modifications to our Hardhat configuration file.
-
-Before that, first, we need an RPC link. Create an account on [alchemy.com](http://alchemy.com) and then in the dashboard click on "Create App", name your app and choose Ethereum Goerli as the network.
+If you are looking to deploy your smart contracts on a Testnet then you have to first get an RPC link. Go ahead and create an account on [alchemy.com](http://alchemy.com) and then in the dashboard click on "Create App", name your app and choose Ethereum Goerli as the network.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680511055808/887bb571-ff04-4800-8595-3f62e5da7ddd.png align="center")
 
-Once the app is created, click on "View Key" and copy HTTP link as we will need it later.  
-  
-Now open up `hardhat.config.js` in your code editor and update the `module.exports` object to the below code
+Once the app is created, click on "View Key" and copy HTTP link as we will need it later.
+
+> If you are looking to deploy your app on the local Hardhat node(just like we do in this tutorial, you can ignore the above part as we don't need a RPC link)
+
+Now, we need to do some modifications to our Hardhat configuration file. Open up `hardhat.config.js` in your code editor and update the `module.exports` object to the below code
 
 ```javascript
 module.exports = {
@@ -139,7 +139,7 @@ module.exports = {
 };
 ```
 
-To deploy our contract, we need a private key. Open Metamask in your browser and click on the three top right and choose account details.
+If you want to deploy the contract on Goerli, you would also need a private key. Open Metamask in your browser and click on the three top right and choose account details.
 
 ![https://cdn.hashnode.com/res/hashnode/image/upload/v1661683125127/zqJIH22Ps.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661683125127/zqJIH22Ps.png?auto=compress,format&format=webp align="left")
 
@@ -237,17 +237,9 @@ Artifacts contain the compiled version of our smart contract in JSON format. Thi
 
 ### Deploying smart contract on a local blockchain
 
-Now, we can deploy our smart contract on a local blockchain using Hardhat. To do that first, we need a local network. To start a local network, run the below code in your terminal.
+Now, we can deploy our smart contract on a local blockchain using Hardhat.
 
-```bash
-npx hardhat node
-```
-
-This command also generates 20 test accounts and addresses, that can be used to deploy and test our smart contracts.
-
-> Don't close this terminal as we need it to deploy our smart contract
-
-Now, simply rename `sample-script.js` to `deploy.js` in your **scripts** folder. And then run the below code to deploy your smart contract on a local network.
+Simply rename `sample-script.js` to `deploy.js` in your **scripts** folder. And then run the below code to deploy your smart contract.
 
 ```bash
 npx hardhat run scripts/deploy.js --network localhost
