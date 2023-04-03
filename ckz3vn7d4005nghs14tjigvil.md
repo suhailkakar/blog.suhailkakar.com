@@ -1,26 +1,34 @@
-## Setup and Build Your First Web 3.0 Application With React, Hardhat, Solidity, and Metamask
+---
+title: "Setup and Build Your First Web 3.0 Application With React, Hardhat, Solidity, and Metamask"
+datePublished: Tue Feb 01 2022 08:46:52 GMT+0000 (Coordinated Universal Time)
+cuid: ckz3vn7d4005nghs14tjigvil
+slug: setup-and-build-your-first-web-3-application
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1643703158326/aEdmGAvli.png
+tags: javascript, web-development, web3
 
-The greatest approach to improve your Web 3.0 skills is to use them to create coding projects. But building them from scratch and adding different libraries can be challenging. This is why in this article we will be creating a simple full-stack application using React, Hardhat, Solidity, Ethers.js, and Metamask which can be used as a boilerplate for our future projects. 
+---
+
+The greatest approach to improve your Web 3.0 skills is to use them to create coding projects. But building them from scratch and adding different libraries can be challenging. This is why in this article we will be creating a simple full-stack application using React, Hardhat, Solidity, Ethers.js, and Metamask which can be used as a boilerplate for our future projects.
 
 ## Setting up Git
 
-Git is a source code management technology used by DevOps. It is a free and open-source version control system that is used to efficiently manage small to extremely big projects. In this project, we will be using Git to track all the changes in the project. 
+Git is a source code management technology used by DevOps. It is a free and open-source version control system that is used to efficiently manage small to extremely big projects. In this project, we will be using Git to track all the changes in the project.
 
 ### Creating a Git repository
 
-The first step would be creating a git repository. In this article, I will be using GitHub, but you can also use similar services like GitLab or Bitbucket. 
+The first step would be creating a git repository. In this article, I will be using GitHub, but you can also use similar services like GitLab or Bitbucket.
 
-Head over to the [GitHub](https://github.com) website and click on the button [Create a new repository](https://github.com/new). Enter the name of your project select the visibility (Public or Private) and click on the button Create repository. 
+Head over to the [GitHub](https://github.com) website and click on the button [Create a new repository](https://github.com/new). Enter the name of your project select the visibility (Public or Private) and click on the button Create repository.
 
-![GitHub](https://cdn.hashnode.com/res/hashnode/image/upload/v1643666834372/nU6cO3YDh.png)
+![GitHub](https://cdn.hashnode.com/res/hashnode/image/upload/v1643666834372/nU6cO3YDh.png align="left")
 
-### Adding Git to the project 
+### Adding Git to the project
 
-Now that we have created the git repository, we can add git to our project. Create a new folder on your computer and open it on a terminal. 
+Now that we have created the git repository, we can add git to our project. Create a new folder on your computer and open it on a terminal.
 
-Now go back to your browser and copy the code which is provided by default on your project repository in GitHub. 
+Now go back to your browser and copy the code which is provided by default on your project repository in GitHub.
 
-It should look similar to the below code 
+It should look similar to the below code
 
 ```bash
 echo "# dapp-boilerplate" >> README.md
@@ -32,19 +40,21 @@ git remote add origin https://github.com/suhailkakar/dapp-boilerplate.git
 git push -u origin main
 ```
 
-Paste it on your terminal and that is it, you have successfully added git to your project. 
+Paste it on your terminal and that is it, you have successfully added git to your project.
 
-> If you don't know what the above command means, check out my "[Ultimate Guide to Git and GitHub](https://blog.suhailkakar.com/an-ultimate-guide-to-git-and-github)" 
+> If you don't know what the above command means, check out my "[Ultimate Guide to Git and GitHub](https://blog.suhailkakar.com/an-ultimate-guide-to-git-and-github)"
 
 ## Setting up the frontend using React
-To get started, we can use the command below to create a simple react application. 
+
+To get started, we can use the command below to create a simple react application.
 
 ```bash
  npx create-react-app ./
 ```
-Once it is completed, your folder structure should look like this. 
 
-```
+Once it is completed, your folder structure should look like this.
+
+```plaintext
 .
 ├── README.md
 ├── README.old.md
@@ -68,20 +78,19 @@ Once it is completed, your folder structure should look like this.
     └── setupTests.js
 ```
 
-Now that our react application is created we can install some packages such as `ethers.js`, `chai`, and `hardhat`. 
+Now that our react application is created we can install some packages such as `ethers.js`, `chai`, and `hardhat`.
 
-Run the below command to install those packages using yarn. 
+Run the below command to install those packages using yarn.
 
-```
+```plaintext
 yarn add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers
 ```
 
-And that is it for now, we will come back to our react application to setup `ethers.js`. 
-
+And that is it for now, we will come back to our react application to setup `ethers.js`.
 
 ## Configuring an Ethereum Development Environment
 
-Next, we need to setup the Ethereum Development Environment, we can simply use Hardhat for this. 
+Next, we need to setup the Ethereum Development Environment, we can simply use Hardhat for this.
 
 Open up your terminal and run the command below.
 
@@ -89,43 +98,72 @@ Open up your terminal and run the command below.
 npx hardhat
 ```
 
-Once completed, you should see below new files/folders generated on your project directory. 
+Once completed, you should see below new files/folders generated on your project directory.
 
+* `test`: This folder contains a test script written in Chai and it is used to test our smart contract
+    
+* `hardhat.config.js`: This file contains the configuration for Hardhat
+    
+* `scripts`: This folder contains a sample script to show to deploy a smart contract
+    
+* `contracts`: This is the folder, which includes the files, in which we write our smart contract code.
+    
 
-- `test`: This folder contains a test script written in Chai and it is used to test our smart contract
+### Modifying the Hardhat configurations
 
-- `hardhat.config.js`: This file contains the configuration for Hardhat 
+Now, we need to do some modifications to our Hardhat configuration file.
 
-- `scripts`: This folder contains a sample script to show to deploy a smart contract
+Before that, first, we need an RPC link. Create an account on [alchemy.com](http://alchemy.com) and then in the dashboard click on "Create App", name your app and choose Ethereum Goerli as the network.
 
-- `contracts`: This is the folder, which includes the files, in which we write our smart contract code. 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680511055808/887bb571-ff04-4800-8595-3f62e5da7ddd.png align="center")
 
-### Modifying the Hardhat configurations 
+Once the app is created, click on "View Key" and copy HTTP link as we will need it later.  
+  
+Now open up `hardhat.config.js` in your code editor and update the `module.exports` object to the below code
 
-Now, we need to do some modifications to our Hardhat configuration file. Open up `hardhat.config.js` in your code editor and update the `module.exports` object to the below code 
-
-```javascript 
+```javascript
 module.exports = {
   solidity: "0.8.4",
   networks:{
     hardhat:{
       chainId: 1337,
-    }
+    }, 
+    goerli:{
+      url: "YOUR_ALCHEMY_RPC_LINK",
+      accounts: [process.env.PRIVATE_KEY]
+    },
   },
   paths:{
     artifacts: "./src/artifacts"
   }
 };
-
 ```
-In the above code, we added the chainId as 1337, It is because of the Metamask configuration issue. We have also added path to our artifacts which are the compiled version of our contracts. 
+
+To deploy our contract, we need a private key. Open Metamask in your browser and click on the three top right and choose account details.
+
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1661683125127/zqJIH22Ps.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661683125127/zqJIH22Ps.png?auto=compress,format&format=webp align="left")
+
+Then, click on "Export Private Key". You will be prompted to enter your Metamask password. Enter your password and click on Confirm.
+
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1661683261027/74sZqhCme.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661683261027/74sZqhCme.png?auto=compress,format&format=webp align="left")
+
+You should see your private key inside a box in red color.
+
+![https://cdn.hashnode.com/res/hashnode/image/upload/v1661683484847/inCLsS82j.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661683484847/inCLsS82j.png?auto=compress,format&format=webp align="left")
+
+Create a `.env` file in the projects root directory and add your private key.
+
+```plaintext
+PRIVATE_KEY="YOUR_METAMASK_PRIVATE_KEY"
+```
+
+> Never ever share your private key. Anyone with your private keys can steal any assets held in your account.
 
 ## Smart contracts
 
 Next, we have smart contracts. A smart contract is a decentralized program that responds to events by executing business logic. They are often written in Solidity.
 
-Take a look at `Greeter.sol` file which is present in the contracts folder. 
-
+Take a look at `Greeter.sol` file which is present in the contracts folder.
 
 ```sol
 
@@ -151,24 +189,21 @@ contract Greeter {
         greeting = _greeting;
     }
 }
-
 ```
 
-Let's break the file into lines and go through each of them. 
-
-
+Let's break the file into lines and go through each of them.
 
 ```sol
 //SPDX-License-Identifier: Unlicense
 
 pragma solidity ^0.8.0;
 ```
-In the two above lines, we have the License and the version of Solidity that we are using for this smart contract 
 
-Next, we have a Greeter contract that contains the code for our smart contract. 
+In the two above lines, we have the License and the version of Solidity that we are using for this smart contract
 
+Next, we have a Greeter contract that contains the code for our smart contract.
 
-```sol 
+```sol
 
 contract Greeter {
 ...
@@ -182,48 +217,51 @@ In the below line, we are declaring a private string that is stored on the block
 string private greeting;
 ```
 
+And at last, the functions inside our contract are used to set the value of greeting on the blockchain and retrieve them,
 
-And at last, the functions inside our contract are used to set the value of greeting on the blockchain and retrieve them, 
+For now, we don't need to bring any changes to our smart contract and we can compile the same thing.
 
-For now, we don't need to bring any changes to our smart contract and we can compile the same thing. 
+### Compiling our smart contracts with Hardhat
 
+Now that you have good knowledge about the sample smart contracts, let's go ahead and compile them.
 
-### Compiling our smart contracts with Hardhat 
-Now that you have good knowledge about the sample smart contracts, let's go ahead and compile them. 
+You can compile it using the command below
 
-You can compile it using the command below 
 ```bash
 npx hardhat compile
 ```
- Once you run the command, you should see a new file in your `src` folder called `artifacts`. 
 
-Artifacts contain the compiled version of our smart contract in JSON format. This JSON file contains an array called `abi`. ABI or Application Binary Interface is what we need to connect our client (React app) with our compiled smart contract. 
+Once you run the command, you should see a new file in your `src` folder called `artifacts`.
+
+Artifacts contain the compiled version of our smart contract in JSON format. This JSON file contains an array called `abi`. ABI or Application Binary Interface is what we need to connect our client (React app) with our compiled smart contract.
 
 ### Deploying smart contract on a local blockchain
 
-Now, we can deploy our smart contract on a local blockchain using Hardhat. To do that first, we need a local network. To start a local network, run the below code in your terminal. 
+Now, we can deploy our smart contract on a local blockchain using Hardhat. To do that first, we need a local network. To start a local network, run the below code in your terminal.
+
 ```bash
 npx hardhat node
 ```
-This command also generates 20 test accounts and addresses, that can be used to deploy and test our smart contracts. 
+
+This command also generates 20 test accounts and addresses, that can be used to deploy and test our smart contracts.
 
 > Don't close this terminal as we need it to deploy our smart contract
 
-Now, simply rename `sample-script.js` to `deploy.js` in your **scripts** folder.  And then run the below code to deploy your smart contract on a local network. 
+Now, simply rename `sample-script.js` to `deploy.js` in your **scripts** folder. And then run the below code to deploy your smart contract on a local network.
 
 ```bash
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-If it was successful, you should see an output similar to below code. 
+If it was successful, you should see an output similar to below code.
 
-```
+```plaintext
 ❯ npx hardhat run scripts/deploy.js --network localhost
 
 Greeter deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 ```
 
-You can also check the logs from the terminal which you opened previously. 
+You can also check the logs from the terminal which you opened previously.
 
 ```bash
   Contract deployment: Greeter
@@ -238,7 +276,7 @@ You can also check the logs from the terminal which you opened previously.
     Deploying a Greeter with greeting: Hello, Hardhat!
 ```
 
-In the above logs, we have the Contract address, Gas used, and the address of the one which deployed the smart contract. 
+In the above logs, we have the Contract address, Gas used, and the address of the one which deployed the smart contract.
 
 The next step would be connecting Metamask to our Local Hardhat Blockchain Node
 
@@ -246,37 +284,33 @@ The next step would be connecting Metamask to our Local Hardhat Blockchain Node
 
 Download and install the Metamask extension in your browser and complete the onboarding process. Once it is completed click on networks and choose **Localhost 8545**
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643672114684/S98oVbM-v.png align="left")
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643672114684/S98oVbM-v.png)
+Once you did, click on the avatar image on Metmask and choose "Import Account".
 
-Once you did, click on the avatar image on Metmask and choose "Import Account". 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643672201093/_WdF1Secm.png align="left")
 
+Copy any private key from the account that was logged into your terminal and import it to Metamask.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643672201093/_WdF1Secm.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643672296038/ClLgf62g4.png align="left")
 
-Copy any private key from the account that was logged into your terminal and import it to Metamask. 
-
-
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643672296038/ClLgf62g4.png)
-
-And, that is it, we have connected our local blockchain to Metamask. 
-
+And, that is it, we have connected our local blockchain to Metamask.
 
 ## Connecting the Front-end with Smart contract
 
-Now we can start connecting the front-end of our application with smart contract. 
+Now we can start connecting the front-end of our application with smart contract.
 
-In your main directory run the command below to start the react app. 
+In your main directory run the command below to start the react app.
 
 ```bash
 npm start
 ```
 
-Now we can start with allowing users to connect with Metamask in your react app. 
+Now we can start with allowing users to connect with Metamask in your react app.
 
 ### Connect with Metamask
 
-Replace the code in your `app.js` with the below code. 
+Replace the code in your `app.js` with the below code.
 
 ```jsx
 import React, { useEffect } from "react";
@@ -309,21 +343,19 @@ export default function App() {
 }
 ```
 
-In the above code, we have a `useEffect` which calls `connectWallet` function every time the app loads. And using ethereum from the window object we are connecting to our app with Metamask. 
+In the above code, we have a `useEffect` which calls `connectWallet` function every time the app loads. And using ethereum from the window object we are connecting to our app with Metamask.
 
-Save the file and reload your app, you should see a MetaMask popup asking you to connect Wallet. 
+Save the file and reload your app, you should see a MetaMask popup asking you to connect Wallet.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643673816195/QFPSyJMvw.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643673816195/QFPSyJMvw.png align="left")
 
 ### Fetching greetings from smart contract
 
-Now that we have connected Metamask we can work on fetching greetings from the contract. 
+Now that we have connected Metamask we can work on fetching greetings from the contract.
 
-But before that, we need to import ABI and ether.js in our app.js file. 
+But before that, we need to import ABI and ether.js in our app.js file.
 
-
-After getting the account you can call a new function called and here is the code for it. 
-
+After getting the account you can call a new function called and here is the code for it.
 
 ```jsx
   const fetchGreetings = async () => {
@@ -348,9 +380,9 @@ After getting the account you can call a new function called and here is the cod
   };
 ```
 
-In the above code, we are checking if used have Metamask installed and then get its provider, and using ether.js we are reading the contract and fetching the greets. 
+In the above code, we are checking if used have Metamask installed and then get its provider, and using ether.js we are reading the contract and fetching the greets.
 
-Finally, this how your `app.js` should look like. 
+Finally, this how your `app.js` should look like.
 
 ```jsx
 import React, { useEffect } from "react";
@@ -405,24 +437,16 @@ export default function App() {
 
   return <div></div>;
 }
-
 ```
 
 The process of sending greeting is also similar, you just need to call that function using ether.js
 
- And that is it. You can also push your final code to GitHub and you have a basic full-stack application that can be used as a boilerplate for your other projects. 
+And that is it. You can also push your final code to GitHub and you have a basic full-stack application that can be used as a boilerplate for your other projects.
 
 ## Conclusion
 
-That is it for this article. I hope you found this article useful, if you need any help please let me know in the comment section. 
+That is it for this article. I hope you found this article useful, if you need any help please let me know in the comment section.
 
-Let's connect on  [Twitter](https://twitter.com/suhailkakar)  and  [LinkedIn](https://linkedin.com/in/suhailkakar/). 
+Let's connect on [Twitter](https://twitter.com/suhailkakar) and [LinkedIn](https://linkedin.com/in/suhailkakar/).
 
 👋 Thanks for reading, See you next time
-
-
-
-
-
-
-
