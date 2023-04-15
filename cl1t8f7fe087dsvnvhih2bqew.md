@@ -151,7 +151,7 @@ Moralis' SDK provides the most comprehensive, easy-to-use Web3 SDK. Think of it 
 
 ### Paper
 
-Paper is a developer platform for NFT commerce. It allows you to accept credit card payments for NFTs, enable users to “connect” to your app with just their email, and airdrop NFTs at scale.
+[Paper](https://withpaper.com/?utm_source=suhail) is a developer platform for NFT commerce. It allows you to accept credit card payments for NFTs, enable users to “connect” to your app with just their email, and airdrop NFTs at scale.
 
 ## Testing
 
