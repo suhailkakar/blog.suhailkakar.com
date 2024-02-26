@@ -1,8 +1,8 @@
 ---
-title: "The Complete Roadmap and Resources to Become a Web3 Developer in 2022"
+title: "The Complete Roadmap and Resources to Become a Web3 Developer in 2024"
 datePublished: Sun Apr 10 2022 11:58:13 GMT+0000 (Coordinated Universal Time)
 cuid: cl1t8f7fe087dsvnvhih2bqew
-slug: the-complete-roadmap-and-resources-to-become-a-web3-developer-in-2022
+slug: the-complete-roadmap-and-resources-to-become-a-web3-developer-in-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1649589195162/I49f3Y7PP.png
 tags: programming, web-development, blockchain, web3
 
@@ -26,7 +26,11 @@ Now it is time to learn the basics of Blockchain. Jumping directly to Web3 witho
 
 %[https://www.youtube.com/watch?v=qOVAbKKSH10] 
 
-The basics of blockchains include topics such as "How a blockchain works", "What is DeFi and how it works", "What is the Decentralized web", "What are Token economies" etc. The above video covers all of them
+The basics of blockchains include topics such as "How a blockchain works", "What is DeFi and how it works", "What is the Decentralized web", "What are Token economies" etc. The above video covers all of them.  
+  
+Cyfrin's [Updraft](https://updraft.cyfrin.io/) is another great resource to get started in Web3. It doesn't only teaches basics but also advanced topics such as Foundry, smart contract security, auditing and etc. If you are new to web3 and don't know where to start, this is the best place!
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708923078923/5f59f569-88a3-469a-9c98-68b43931eafe.png align="center")
 
 ## Web3 and Blockchain Terms
 
