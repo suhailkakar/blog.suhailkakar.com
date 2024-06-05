@@ -3,6 +3,7 @@ title: "The Complete Developer's Guide to EigenLayer's AVS"
 datePublished: Wed Jun 05 2024 11:33:54 GMT+0000 (Coordinated Universal Time)
 cuid: clx1r3bo4000j09lla6gih70l
 slug: the-complete-developers-guide-to-eigenlayers-avs
+tags: web3
 
 ---
 
