@@ -19,6 +19,8 @@ EigenLayer is a protocol built on Ethereum that introduces restaking, a new conc
 
 ![EigenLayer: Bringing Ethereum-Level Trust to Middleware | by Jiawei | IOSG  Ventures | Medium](https://miro.medium.com/v2/resize:fit:1400/1*mTUDV71LQsQJWVvjWhLUyg.png align="center")
 
+*Diagram by by Jiawei | IOSG Ventures | Medium*
+
 In simple terms, EigenLayer is like a multi-tool for the blockchain world. It allows you to take the security and validation power from one place and use it in many different ways. Whether it's for securing data, running new virtual machines, or connecting different blockchains, EigenLayer makes it easier and more efficient.
 
 Alright, let's get to the heart of the matter – what exactly is an AVS?
