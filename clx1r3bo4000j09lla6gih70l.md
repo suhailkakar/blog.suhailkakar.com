@@ -9,7 +9,7 @@ tags: programming, web3, eigenlayer
 
 If you've landed here you're probably curious about AVS (Actively Validated Services) and how it fits into the whole blockchain scene. Whether you're a seasoned blockchain developer or just getting your feet wet, this guide is here to walk you through everything you need to know about AVS.
 
-We'll start with the basics – what an AVS is – and then explore its key components like operators, stakers, and smart contracts. From there, we'll dive into the details of how AVS works, including interaction flow and validation processes. Finally, we'll get hands-on and build a simple "Hello World" AVS together.
+We'll start with the basics – what an AVS is – and then explore its key components like operators, stakers, and smart contracts. From there, we'll dive into the details of how AVS works, including interaction flow and validation processes. Finally we will get hands-on and build a simple "Hello World" AVS together.
 
 Before we get into AVS, let's talk about EigenLayer – the foundation that makes all this magic possible.
 
@@ -57,6 +57,8 @@ Pretty cool, right? Now that we've got a handle on what an AVS is, let's dive in
 ## Key Components of AVS
 
 To understand how AVS works, we need to break it down into its core components: Operators, Stakers, and Smart Contracts. Each of these plays a crucial role in ensuring the system runs smoothly and securely.
+
+Let's dive into these components – it's like understanding the different parts of a car engine. Once you know how each piece functions, you can appreciate the whole system better.
 
 ### Operators
 
@@ -189,7 +191,256 @@ Before we jump in, make sure you have these installed on your machine:
 
 Let's break down the key parts of the repo and see what's going on under the hood.
 
-1. **Contracts** The `contracts` folder has the Solidity smart contracts that define the AVS logic. Key contracts include:
+Don't worry if you hit a few bumps along the way – the first setup is always the trickiest, but it's also the most rewarding when you see it work!
+
+**Operators**
+
+The `operator` folder contains scripts to manage and monitor AVS tasks. Here’s a detailed look inside `index.ts`:
+
+```javascript
+import { ethers } from "ethers";
+import * as dotenv from "dotenv";
+import { delegationABI } from "./abis/delegationABI";
+import { contractABI } from './abis/contractABI';
+import { registryABI } from './abis/registryABI';
+import { avsDirectoryABI } from './abis/avsDirectoryABI';
+dotenv.config();
+
+const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
+const wallet = new ethers.Wallet(process.env.PRIVATE_KEY!, provider);
+
+const delegationManagerAddress = process.env.DELEGATION_MANAGER_ADDRESS!;
+const contractAddress = process.env.CONTRACT_ADDRESS!;
+const stakeRegistryAddress = process.env.STAKE_REGISTRY_ADDRESS!;
+const avsDirectoryAddress = process.env.AVS_DIRECTORY_ADDRESS!;
+
+const delegationManager = new ethers.Contract(delegationManagerAddress, delegationABI, wallet);
+const contract = new ethers.Contract(contractAddress, contractABI, wallet);
+const registryContract = new ethers.Contract(stakeRegistryAddress, registryABI, wallet);
+const avsDirectory = new ethers.Contract(avsDirectoryAddress, avsDirectoryABI, wallet);
+
+const signAndRespondToTask = async (taskIndex: number, taskCreatedBlock: number, taskName: string) => {
+    const message = `Hello, ${taskName}`;
+    const messageHash = ethers.utils.solidityKeccak256(["string"], [message]);
+    const messageBytes = ethers.utils.arrayify(messageHash);
+    const signature = await wallet.signMessage(messageBytes);
+
+    console.log(
+        `Signing and responding to task ${taskIndex}`
+    )
+
+    const tx = await contract.respondToTask(
+        { name: taskName, taskCreatedBlock: taskCreatedBlock },
+        taskIndex,
+        signature
+    );
+    await tx.wait();
+    console.log(`Responded to task.`);
+};
+
+const registerOperator = async () => {
+    const tx1 = await delegationManager.registerAsOperator({
+        earningsReceiver: await wallet.address,
+        delegationApprover: "0x0000000000000000000000000000000000000000",
+        stakerOptOutWindowBlocks: 0
+    }, "");
+    await tx1.wait();
+    console.log("Operator registered on EL successfully");
+
+    const salt = ethers.utils.hexlify(ethers.utils.randomBytes(32));
+    const expiry = Math.floor(Date.now() / 1000) + 3600; // Example expiry, 1 hour from now
+
+    // Define the output structure
+    let operatorSignature = {
+        expiry: expiry,
+        salt: salt,
+        signature: ""
+    };
+
+    // Calculate the digest hash using the avsDirectory's method
+    const digestHash = await avsDirectory.calculateOperatorAVSRegistrationDigestHash(
+        wallet.address, 
+        contract.address, 
+        salt, 
+        expiry
+    );
+
+    // Sign the digest hash with the operator's private key
+    const signingKey = new ethers.utils.SigningKey(process.env.PRIVATE_KEY!);
+    const signature = signingKey.signDigest(digestHash);
+    
+    // Encode the signature in the required format
+    operatorSignature.signature = ethers.utils.joinSignature(signature);
+
+    const tx2 = await registryContract.registerOperatorWithSignature(
+        wallet.address,
+        operatorSignature
+    );
+    await tx2.wait();
+    console.log("Operator registered on AVS successfully");
+};
+
+const monitorNewTasks = async () => {
+    await contract.createNewTask("EigenWorld");
+
+    contract.on("NewTaskCreated", async (taskIndex: number, task: any) => {
+        console.log(`New task detected: Hello, ${task.name}`);
+        await signAndRespondToTask(taskIndex, task.taskCreatedBlock, task.name);
+    });
+
+    console.log("Monitoring for new tasks...");
+};
+
+const main = async () => {
+    await registerOperator();
+    monitorNewTasks().catch((error) => {
+        console.error("Error monitoring tasks:", error);
+    });
+};
+
+main().catch((error) => {
+    console.error("Error in main function:", error);
+});
+```
+
+1. **Environment Setup**:
+    
+    * Uses `dotenv` to load environment variables.
+        
+    * Connects to the Ethereum provider using the RPC URL and private key.
+        
+2. **Contract Instances**:
+    
+    * Initializes contract instances for DelegationManager, the main contract, StakeRegistry, and AVS Directory using their ABIs and addresses.
+        
+3. **Task Handling**:
+    
+    * `signAndRespondToTask` function signs and submits responses to tasks.
+        
+    * `registerOperator` function registers the operator with the necessary contracts.
+        
+    * `monitorNewTasks` function listens for new tasks and handles them.
+        
+4. **Main Execution**:
+    
+    * The `main` function orchestrates the registration and task monitoring processes.
+        
+
+##### **Tasks Script**
+
+Here's a detailed look inside `createNewTasks.ts`:
+
+```solidity
+import { ethers } from 'ethers';
+
+// Connect to the Ethereum network
+const provider = new ethers.providers.JsonRpcProvider(`http://127.0.0.1:8545`);
+
+// Replace with your own private key (ensure this is kept secret in real applications)
+const privateKey = '';
+const wallet = new ethers.Wallet(privateKey, provider);
+
+// Replace with the address of your smart contract
+const contractAddress = '';
+
+// The ABI provided
+const contractABI = [
+  {"type":"function","name":"createNewTask","inputs":[{"name":"name","type":"string","internalType":"string"}],"outputs":[],"stateMutability":"nonpayable"}
+];
+
+// Create a contract instance
+const contract = new ethers.Contract(contractAddress, contractABI, wallet);
+
+// Function to generate random names
+function generateRandomName(): string {
+    const adjectives = ['Quick', 'Lazy', 'Sleepy', 'Noisy', 'Hungry'];
+    const nouns = ['Fox', 'Dog', 'Cat', 'Mouse', 'Bear'];
+    const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+    const noun = nouns[Math.floor(Math.random() * nouns.length)];
+    const randomName = `${adjective}${noun}${Math.floor(Math.random() * 1000)}`;
+    return randomName;
+  }
+
+async function createNewTask(taskName: string) {
+  try {
+    // Send a transaction to the createNewTask function
+    const tx = await contract.createNewTask(taskName);
+    
+    // Wait for the transaction to be mined
+    const receipt = await tx.wait();
+    
+    console.log(`Transaction successful with hash: ${receipt.transactionHash}`);
+  } catch (error) {
+    console.error('Error sending transaction:', error);
+  }
+}
+
+// Function to create a new task with a random name every 15 seconds
+function startCreatingTasks() {
+  setInterval(() => {
+    const randomName = generateRandomName();
+    console.log(`Creating new task with name: ${randomName}`);
+    createNewTask(randomName);
+  }, 15000);
+}
+
+// Start the process
+startCreatingTasks();
+```
+
+1. **Environment Setup**:
+    
+    * Connects to the local Ethereum network using a JSON RPC provider.
+        
+    * Uses a specified private key to sign transactions.
+        
+2. **Contract Instance**:
+    
+    * Initializes a contract instance for the HelloWorld contract using its ABI and address.
+        
+3. **Task Creation**:
+    
+    * `generateRandomName` function generates random names for tasks.
+        
+    * `createNewTask` function sends a transaction to create a new task on the blockchain.
+        
+    * `startCreatingTasks` function repeatedly creates new tasks every 15 seconds.
+        
+
+##### **Docker Setup**
+
+The `Dockerfile` is used to set up a Docker environment for running the AVS.
+
+```yaml
+FROM node:14
+
+WORKDIR /app
+
+COPY package.json ./
+COPY tsconfig.json ./
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "start"]
+```
+
+1. **FROM node:14**: Uses the Node.js version 14 image as the base image.
+    
+2. **WORKDIR /app**: Sets the working directory to `/app`.
+    
+3. **COPY package.json ./** and **COPY tsconfig.json ./**: Copies `package.json` and `tsconfig.json` to the working directory.
+    
+4. **RUN npm install**: Installs the necessary Node.js dependencies.
+    
+5. **COPY . .**: Copies the entire project to the working directory.
+    
+6. **CMD \["npm", "start"\]**: Runs the `npm start` command to start the application.
+    
+
+**Contracts**
+
+1. The `contracts` folder has the Solidittyy smart contracts that define the AVS logic. Key contracts include:
     
     * `HelloWorldServiceManager.sol`: Manages the "Hello World" tasks and operator responses.
         
@@ -299,53 +550,37 @@ Let's break down the key parts of the repo and see what's going on under the hoo
         
         * **Task Creation**: The `createNewTask` function lets anyone create a new task. It emits an event that operators can pick up.
             
-        * **Task Response**: The `respondToTask` function is for operators to respond to tasks. It checks that the operator is legit and that the response is correct before recording it.
+        * **Task Response**: The `respondToTask` function is for operators to respond to tasks. It checks thaat the operator is legit and that the response is correct before recording it.
             
         * **Weight Check**: The `operatorHasMinimumWeight` function checks if an operator has enough stake to participate.
             
-2. **Deployment Scripts** The `scripts` folder has scripts for deploying the contracts to the local blockchain. These scripts use Foundry to automate the deployment process.
+
+**Running the Show**
+
+Once you’ve got everything set up, it’s time to run the show. Here’s the basic flow:
+
+1. **AVS Consumer Requests a Task**:
     
-    Example deployment script:
-    
-    ```solidity
-    pragma solidity ^0.8.9;
-    
-    import {HelloWorldServiceManager} from "../src/HelloWorldServiceManager.sol";
-    
-    contract HelloWorldDeployer {
-        HelloWorldServiceManager public helloWorldServiceManager;
-    
-        function run() external {
-            // Deploy the HelloWorldServiceManager contract
-            helloWorldServiceManager = new HelloWorldServiceManager(
-                address(avsDirectory),
-                address(stakeRegistry),
-                address(delegationManager)
-            );
-    
-            // Log the deployed contract address
-            console.log("HelloWorldServiceManager deployed at:", address(helloWorldServiceManager));
-        }
-    }
-    ```
-    
-    3. **Running the Show** Once you’ve got everything set up, it’s time to run the show. Here’s the basic flow:
+    * The AVS consumer requests a "Hello World" message to be generated and signed.
         
-        * The AVS consumer requests a "Hello World" message to be generated and signed.
-            
-        * The AVS picks up the request and emits an event for operators.
-            
-        * An operator takes the request, generates the message, and signs it.
-            
-        * The operator submits the signed message back to the AVS.
-            
-        * If everything checks out, the submission is accepted.
-            
+2. **AVS Emits Event**:
+    
+    * The AVS picks up the request and emits an event for operators.
         
-        This simple flow highlights the core mechanics of how AVSs work. You can get more sophisticated with different requests, operator coordination, and various security measures, but this "Hello World" example is a great place to start.
+3. **Operator Processes the Task**:
+    
+    * An operator takes the request, generates the message, and signs it.
+        
+4. **Submission and Verification**:
+    
+    * The operator submits the signed message back to the AVS.
+        
+    * If everything checks out, the submission is accepted.
         
 
-## **Conclusion**
+This simple flow highlights the core mechanics of how AVSs work. You can get more sophisticated with different requests, operator coordination, and various security measures, but this "Hello Worlddd" example is a great place to start.
+
+## Conclusion
 
 That's all for this article. I hope you found it useful. If you need any help, feel free to leave a comment or send me a dm on [**Twitter**](https://twitter.com/SuhailKakar).
 
